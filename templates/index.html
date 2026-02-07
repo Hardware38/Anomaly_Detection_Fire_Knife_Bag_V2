@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yangın Tespit Sistemi - Fire Detection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon {
+            font-size: 1.2em;
+        }
+
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: #f8f9ff;
+        }
+
+        .upload-area:hover {
+            background: #f0f2ff;
+            border-color: #764ba2;
+        }
+
+        .upload-area.dragging {
+            background: #e8ebff;
+            border-color: #764ba2;
+        }
+
+        #imageInput {
+            display: none;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .button-danger {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .result-container {
+            margin-top: 20px;
+            display: none;
+        }
+
+        .result-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .alert-danger {
+            background: #ffe0e0;
+            color: #c00;
+            border: 2px solid #f5576c;
+        }
+
+        .alert-success {
+            background: #e0ffe0;
+            color: #0a0;
+            border: 2px solid #00cc00;
+        }
+
+        .camera-container {
+            position: relative;
+        }
+
+        #cameraFeed {
+            width: 100%;
+            border-radius: 10px;
+            display: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .stat-box {
+            background: #f8f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            color: #667eea;
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+
+        .info-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .info-section h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .info-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info-section li {
+            padding: 8px 0;
+            color: #555;
+        }
+
+        .info-section li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔥 Yangın Tespit Sistemi</h1>
+            <p>YOLOv8 tabanlı gerçek zamanlı yangın algılama sistemi</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Image Upload Section -->
+            <div class="card">
+                <h2><span class="icon">📤</span> Görüntü Yükle</h2>
+                <div class="upload-area" id="uploadArea">
+                    <p style="font-size: 3em; margin-bottom: 10px;">📁</p>
+                    <p style="color: #667eea; font-weight: 600;">Tıklayın veya sürükle-bırak yapın</p>
+                    <p style="color: #999; font-size: 0.9em; margin-top: 5px;">JPG, PNG, BMP (max 16MB)</p>
+                    <input type="file" id="imageInput" accept="image/*">
+                </div>
+
+                <div class="loading" id="uploadLoading">
+                    <div class="spinner"></div>
+                    <p style="margin-top: 10px; color: #667eea;">Analiz ediliyor...</p>
+                </div>
+
+                <div class="result-container" id="uploadResult">
+                    <div id="uploadAlert"></div>
+                    <div class="stats" id="uploadStats" style="display: none;">
+                        <div class="stat-box">
+                            <div class="stat-label">Tespit</div>
+                            <div class="stat-value" id="detectionStatus">-</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-label">Güven</div>
+                            <div class="stat-value" id="confidence">-</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-label">Sayı</div>
+                            <div class="stat-value" id="numDetections">-</div>
+                        </div>
+                    </div>
+                    <img id="resultImage" class="result-image" style="display: none;">
+                </div>
+            </div>
+
+            <!-- Live Camera Section -->
+            <div class="card">
+                <h2><span class="icon">📹</span> Canlı Kamera</h2>
+                <p style="color: #666; margin-bottom: 15px;">Kameranızla gerçek zamanlı yangın tespiti yapın</p>
+
+                <div class="camera-container">
+                    <img id="cameraFeed" src="">
+                    <div style="text-align: center;">
+                        <button class="button" id="startCamera">Kamerayı Başlat</button>
+                        <button class="button button-danger" id="stopCamera" style="display: none;">Kamerayı Durdur</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="info-section">
+            <h3>📊 Sistem Özellikleri</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <ul>
+                    <li>YOLOv8s derin öğrenme modeli</li>
+                    <li>Gerçek zamanlı tespit (~30 FPS)</li>
+                    <li>Yüksek doğruluk oranı (mAP50: 0.785)</li>
+                </ul>
+                <ul>
+                    <li>Görüntü yükleme desteği</li>
+                    <li>Canlı kamera entegrasyonu</li>
+                    <li>Güven skoru gösterimi</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Upload Area
+        const uploadArea = document.getElementById('uploadArea');
+        const imageInput = document.getElementById('imageInput');
+        const uploadLoading = document.getElementById('uploadLoading');
+        const uploadResult = document.getElementById('uploadResult');
+        const uploadAlert = document.getElementById('uploadAlert');
+        const uploadStats = document.getElementById('uploadStats');
+        const resultImage = document.getElementById('resultImage');
+
+        // Camera
+        const cameraFeed = document.getElementById('cameraFeed');
+        const startCameraBtn = document.getElementById('startCamera');
+        const stopCameraBtn = document.getElementById('stopCamera');
+
+        // Upload area click
+        uploadArea.addEventListener('click', () => {
+            imageInput.click();
+        });
+
+        // Drag and drop
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragging');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragging');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragging');
+            if (e.dataTransfer.files.length) {
+                imageInput.files = e.dataTransfer.files;
+                uploadImage();
+            }
+        });
+
+        // File input change
+        imageInput.addEventListener('change', uploadImage);
+
+        function uploadImage() {
+            const file = imageInput.files[0];
+            if (!file) return;
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            // Show loading
+            uploadLoading.style.display = 'block';
+            uploadResult.style.display = 'none';
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                uploadLoading.style.display = 'none';
+                uploadResult.style.display = 'block';
+
+                if (data.error) {
+                    uploadAlert.innerHTML = `<div class="alert alert-danger">Hata: ${data.error}</div>`;
+                    uploadStats.style.display = 'none';
+                    resultImage.style.display = 'none';
+                } else {
+                    // Show result
+                    const fireDetected = data.fire_detected;
+                    const confidence = (data.confidence * 100).toFixed(1);
+
+                    uploadAlert.innerHTML = fireDetected
+                        ? `<div class="alert alert-danger">⚠️ YANGIN TESPİT EDİLDİ!</div>`
+                        : `<div class="alert alert-success">✓ Yangın tespit edilmedi</div>`;
+
+                    uploadStats.style.display = 'grid';
+                    document.getElementById('detectionStatus').textContent = fireDetected ? 'EVET' : 'HAYIR';
+                    document.getElementById('confidence').textContent = confidence + '%';
+                    document.getElementById('numDetections').textContent = data.num_detections;
+
+                    resultImage.src = data.image;
+                    resultImage.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                uploadLoading.style.display = 'none';
+                uploadResult.style.display = 'block';
+                uploadAlert.innerHTML = `<div class="alert alert-danger">Hata: ${error.message}</div>`;
+            });
+        }
+
+        // Camera controls
+        startCameraBtn.addEventListener('click', () => {
+            cameraFeed.src = '/camera_feed';
+            cameraFeed.style.display = 'block';
+            startCameraBtn.style.display = 'none';
+            stopCameraBtn.style.display = 'inline-block';
+        });
+
+        stopCameraBtn.addEventListener('click', () => {
+            fetch('/stop_camera', { method: 'POST' })
+            .then(() => {
+                cameraFeed.src = '';
+                cameraFeed.style.display = 'none';
+                startCameraBtn.style.display = 'inline-block';
+                stopCameraBtn.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>

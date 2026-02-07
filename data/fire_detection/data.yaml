@@ -1,0 +1,7 @@
+names:
+- fire
+nc: 1
+path: C:\Users\MONSTER\Desktop\bitirme-anomali-tespiti-main\bitirme-anomali-tespiti-main\data\fire_detection
+test: test/images
+train: train/images
+val: valid/images

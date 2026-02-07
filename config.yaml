@@ -1,0 +1,67 @@
+# Configuration for Visual Anomaly Detection System
+
+# Fire Detection Configuration
+fire_detection:
+  model_name: "yolov8n"  # "s" yerine "n" (nano) yaptık. En hızlı model budur.
+  img_size: 320          # 640 yerine 320 yaptık. Hızı 4 kat artırır.
+  batch_size: 8          # 16 yerine 8 yaptık. Bilgisayarı yormaz.
+  epochs: 30             # 150 yerine 30 yaptık. 3 gün yerine 2-3 saatte biter.
+  confidence_threshold: 0.35
+  inference_threshold: 0.5
+  iou_threshold: 0.45
+
+  # Hybrid system parameters
+  hybrid:
+    use_color_detection: true
+    use_motion_detection: true
+    fire_color_ranges:
+      lower_hsv: [0, 100, 100]
+      upper_hsv: [30, 255, 255]
+    motion_threshold: 25
+
+  # Dataset paths
+  dataset:
+    root: "data/fire_detection"
+    train: "data/fire_detection/train"
+    val: "data/fire_detection/val"
+    test: "data/fire_detection/test"
+
+  # Training parameters
+  training:
+    learning_rate: 0.001
+    optimizer: "Adam"
+    weight_decay: 0.0005
+    scheduler: "cosine"
+    augmentation: true
+    patience: 50
+
+# Weapon Detection Configuration (Future)
+weapon_detection:
+  model_name: "yolov8m"
+  img_size: 640
+  batch_size: 16
+  epochs: 100
+  confidence_threshold: 0.6
+
+# Railway Intrusion Detection Configuration (Future)
+railway_detection:
+  model_name: "yolov8m"
+  img_size: 640
+  batch_size: 16
+  epochs: 100
+  confidence_threshold: 0.7
+
+# General Settings
+general:
+  device: "cuda"  # cuda or cpu
+  workers: 4
+  seed: 42
+  save_dir: "results"
+  log_dir: "logs"
+
+# Alert System
+alerts:
+  fire_alert_threshold: 0.6  # Bu confidence ustunde alarm ver
+  weapon_alert_threshold: 0.75
+  railway_alert_threshold: 0.8
+  alert_cooldown: 3  # Ayni ates icin tekrar alarm vermeden once bekle (saniye)

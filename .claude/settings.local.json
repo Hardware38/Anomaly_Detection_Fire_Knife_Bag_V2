@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip install:*)",
+      "Bash(nvidia-smi:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 120 python:*)",
+      "Bash(for img in \"img-112-_jpg.rf.007677a94e7d0678f06db0038a8efe7a.jpg\" \"img-12-_jpg.rf.5b38c8d5806456acb35da5fe65bee43c.jpg\" \"img-123-_jpg.rf.01db1b133084f9fc2320f08637901237.jpg\")",
+      "Bash(do echo \"Testing: $img\")",
+      "Bash(done)"
+    ]
+  }
+}
