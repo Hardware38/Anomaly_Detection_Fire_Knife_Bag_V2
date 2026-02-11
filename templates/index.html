@@ -3,189 +3,382 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yangın Tespit Sistemi - Fire Detection</title>
+    <title>FireGuard - Akıllı Yangın Tespit Sistemi</title>
     <style>
+        :root {
+            --bg1: #07080b;
+            --bg2: #111217;
+            --panel: rgba(16, 17, 22, 0.78);
+            --panel2: rgba(16, 17, 22, 0.62);
+            --card: rgba(18, 19, 24, 0.86);
+            --card2: rgba(18, 19, 24, 0.72);
+            --text: rgba(255, 255, 255, 0.92);
+            --muted: rgba(255, 255, 255, 0.68);
+            --muted2: rgba(255, 255, 255, 0.52);
+            --border: rgba(255, 255, 255, 0.10);
+            --shadow: 0 18px 55px rgba(0,0,0,0.55);
+            --shadow2: 0 10px 22px rgba(0,0,0,0.38);
+            --primary: #ff7a18;
+            --primary2: #ff3d00;
+            --danger: #ff3d00;
+            --success: #22c55e;
+            --warn: #f59e0b;
+            --radius: 18px;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        html, body {
+            height: 100%;
+        }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+            color: var(--text);
+            background:
+                radial-gradient(1100px 700px at 12% 10%, rgba(255, 122, 24, 0.22), transparent 60%),
+                radial-gradient(900px 650px at 88% 18%, rgba(255, 61, 0, 0.20), transparent 62%),
+                radial-gradient(900px 700px at 35% 92%, rgba(245, 158, 11, 0.10), transparent 60%),
+                linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
             min-height: 100vh;
-            padding: 20px;
+            padding: 28px 18px;
+            overflow-x: hidden;
+        }
+
+        /* Subtle background grid */
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background:
+                linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+            background-size: 44px 44px;
+            opacity: 0.10;
+            pointer-events: none;
+            mask-image: radial-gradient(800px 600px at 50% 0%, black 20%, transparent 70%);
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1180px;
             margin: 0 auto;
         }
 
         header {
-            text-align: center;
-            color: white;
-            margin-bottom: 40px;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            margin-bottom: 28px;
+            padding: 14px 0;
+            background: linear-gradient(180deg, rgba(7, 8, 11, 0.92) 0%, rgba(7, 8, 11, 0.62) 60%, transparent 100%);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-size: clamp(1.8rem, 2.4vw + 1rem, 2.7rem);
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+            text-shadow: 0 12px 34px rgba(0,0,0,0.65);
         }
 
         header p {
-            font-size: 1.1em;
-            opacity: 0.9;
+            font-size: 1.02rem;
+            color: rgba(255,255,255,0.74);
+            max-width: 760px;
+            margin: 0 auto;
+        }
+
+        /* Top nav */
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 8px 10px 12px;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            color: rgba(255,255,255,0.92);
+            text-decoration: none;
+            user-select: none;
+        }
+
+        .brand-badge {
+            width: 34px;
+            height: 34px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            background: radial-gradient(120% 120% at 20% 20%, rgba(255, 122, 24, 0.30), rgba(255, 61, 0, 0.10));
+            border: 1px solid rgba(255, 255, 255, 0.10);
+            box-shadow: 0 10px 22px rgba(0,0,0,0.40);
+        }
+
+        .brand-name {
+            font-size: 1.15rem;
+        }
+
+        .brand-name .accent {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary2) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .nav {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+        }
+
+        .nav a {
+            color: rgba(255,255,255,0.78);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 10px 10px;
+            border-radius: 12px;
+            transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+        }
+
+        .nav a:hover {
+            background: rgba(255, 122, 24, 0.10);
+            color: rgba(255,255,255,0.92);
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 720px) {
+            .nav {
+                gap: 8px;
+            }
+            .nav a {
+                padding: 8px 8px;
+                font-size: 0.92rem;
+            }
         }
 
         .main-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-bottom: 30px;
+            gap: 22px;
+            margin-bottom: 22px;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
             .main-content {
                 grid-template-columns: 1fr;
+                gap: 18px;
             }
         }
 
+        /* Card / glass */
         .card {
-            background: white;
-            border-radius: 15px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            transition: transform 0.3s ease;
+            position: relative;
+            background: linear-gradient(180deg, rgba(18,19,24,0.90) 0%, rgba(18,19,24,0.78) 100%);
+            border: 1px solid rgba(255,255,255,0.10);
+            border-radius: var(--radius);
+            padding: 26px;
+            box-shadow: var(--shadow);
+            color: rgba(255,255,255,0.92);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            overflow: hidden;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            inset: -2px;
+            background:
+                radial-gradient(650px 220px at 20% 0%, rgba(255, 122, 24, 0.18), transparent 55%),
+                radial-gradient(520px 200px at 85% 15%, rgba(255, 61, 0, 0.14), transparent 55%);
+            pointer-events: none;
         }
 
         .card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-4px);
+            box-shadow: 0 22px 70px rgba(0,0,0,0.32);
         }
 
         .card h2 {
-            color: #667eea;
-            margin-bottom: 20px;
-            font-size: 1.8em;
+            color: rgba(255,255,255,0.92);
+            margin-bottom: 16px;
+            font-size: 1.35rem;
             display: flex;
             align-items: center;
             gap: 10px;
+            letter-spacing: -0.01em;
         }
 
         .icon {
-            font-size: 1.2em;
+            font-size: 1.25em;
+            filter: drop-shadow(0 6px 10px rgba(0,0,0,0.14));
         }
 
+        /* Upload area */
         .upload-area {
-            border: 3px dashed #667eea;
-            border-radius: 10px;
-            padding: 40px;
+            border: 2px dashed rgba(255, 122, 24, 0.55);
+            border-radius: 14px;
+            padding: 34px 22px;
             text-align: center;
             cursor: pointer;
-            transition: all 0.3s ease;
-            background: #f8f9ff;
+            transition: all 0.25s ease;
+            background: rgba(255, 122, 24, 0.06);
+            outline: none;
         }
 
         .upload-area:hover {
-            background: #f0f2ff;
-            border-color: #764ba2;
+            background: rgba(255, 61, 0, 0.06);
+            border-color: rgba(255, 61, 0, 0.60);
+            transform: translateY(-1px);
         }
 
         .upload-area.dragging {
-            background: #e8ebff;
-            border-color: #764ba2;
+            background: rgba(255, 122, 24, 0.10);
+            border-color: rgba(255, 122, 24, 0.75);
+            box-shadow: 0 10px 24px rgba(255, 122, 24, 0.18);
+        }
+
+        .upload-area:focus-visible {
+            box-shadow: 0 0 0 4px rgba(255, 122, 24, 0.22);
         }
 
         #imageInput {
             display: none;
         }
 
+        /* Buttons */
         .button {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary2) 100%);
             color: white;
-            border: none;
-            padding: 15px 30px;
-            border-radius: 8px;
-            font-size: 1em;
+            border: 1px solid rgba(255,255,255,0.10);
+            padding: 14px 18px;
+            border-radius: 12px;
+            font-size: 0.98rem;
             cursor: pointer;
-            transition: all 0.3s ease;
-            margin-top: 15px;
-            font-weight: 600;
+            transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+            margin-top: 14px;
+            font-weight: 750;
+            letter-spacing: 0.01em;
+            box-shadow: 0 12px 26px rgba(255, 122, 24, 0.18);
         }
 
         .button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            transform: translateY(-1px);
+            filter: brightness(1.05);
+            box-shadow: 0 16px 34px rgba(255, 61, 0, 0.22);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .button:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(255, 122, 24, 0.20), 0 12px 26px rgba(255, 122, 24, 0.22);
         }
 
         .button:disabled {
-            background: #ccc;
+            background: #cbd5e1;
             cursor: not-allowed;
             transform: none;
+            box-shadow: none;
+            color: rgba(11, 18, 32, 0.55);
         }
 
         .button-danger {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            background: linear-gradient(135deg, #ff5a3d 0%, #ff3d00 100%);
+            box-shadow: 0 12px 26px rgba(255, 61, 0, 0.18);
         }
 
+        .button-danger:hover {
+            box-shadow: 0 14px 30px rgba(239, 68, 68, 0.28);
+        }
+
+        /* Result container */
         .result-container {
-            margin-top: 20px;
+            margin-top: 18px;
             display: none;
         }
 
         .result-image {
             width: 100%;
-            border-radius: 10px;
-            margin-top: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 14px;
+            margin-top: 14px;
+            box-shadow: var(--shadow2);
+            border: 1px solid var(--border);
         }
 
+        /* Alerts */
         .alert {
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 15px;
-            font-weight: 600;
+            padding: 14px 14px;
+            border-radius: 14px;
+            margin-top: 12px;
+            font-weight: 850;
             text-align: center;
+            border: 1px solid rgba(255,255,255,0.10);
+            letter-spacing: 0.01em;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
         }
 
         .alert-danger {
-            background: #ffe0e0;
-            color: #c00;
-            border: 2px solid #f5576c;
+            background: rgba(255, 61, 0, 0.14);
+            color: rgba(255,255,255,0.92);
+            border-color: rgba(255, 61, 0, 0.30);
         }
 
         .alert-success {
-            background: #e0ffe0;
-            color: #0a0;
-            border: 2px solid #00cc00;
+            background: rgba(34, 197, 94, 0.12);
+            color: rgba(255,255,255,0.92);
+            border-color: rgba(34, 197, 94, 0.24);
         }
 
+        /* Camera */
         .camera-container {
             position: relative;
         }
 
         #cameraFeed {
             width: 100%;
-            border-radius: 10px;
+            border-radius: 14px;
             display: none;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow2);
+            border: 1px solid var(--border);
+            background: rgba(11, 18, 32, 0.06);
         }
 
+        /* Loading */
         .loading {
             display: none;
             text-align: center;
-            padding: 20px;
+            padding: 18px;
+            border-radius: 14px;
+            background: rgba(79, 124, 255, 0.06);
+            border: 1px solid rgba(79, 124, 255, 0.16);
+            margin-top: 14px;
         }
 
         .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
+            border: 4px solid rgba(79, 124, 255, 0.18);
+            border-top: 4px solid rgba(79, 124, 255, 0.85);
             border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
+            width: 44px;
+            height: 44px;
+            animation: spin 0.9s linear infinite;
             margin: 0 auto;
         }
 
@@ -194,42 +387,58 @@
             100% { transform: rotate(360deg); }
         }
 
+        /* Stats */
         .stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-top: 15px;
+            gap: 12px;
+            margin-top: 12px;
+        }
+
+        @media (max-width: 520px) {
+            .stats {
+                grid-template-columns: 1fr;
+            }
         }
 
         .stat-box {
-            background: #f8f9ff;
-            padding: 15px;
-            border-radius: 8px;
+            background: rgba(255, 122, 24, 0.06);
+            border: 1px solid rgba(255, 122, 24, 0.14);
+            padding: 14px;
+            border-radius: 14px;
             text-align: center;
         }
 
         .stat-label {
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 5px;
+            color: rgba(255,255,255,0.68);
+            font-size: 0.9rem;
+            margin-bottom: 6px;
+            font-weight: 750;
         }
 
         .stat-value {
-            color: #667eea;
-            font-size: 1.5em;
-            font-weight: 700;
+            color: rgba(255,255,255,0.92);
+            font-size: 1.6rem;
+            font-weight: 900;
+            letter-spacing: -0.01em;
         }
 
+        /* Info section */
         .info-section {
-            background: white;
-            border-radius: 15px;
-            padding: 25px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            background: linear-gradient(180deg, rgba(18,19,24,0.90) 0%, rgba(18,19,24,0.78) 100%);
+            border: 1px solid rgba(255,255,255,0.10);
+            border-radius: var(--radius);
+            padding: 22px;
+            box-shadow: var(--shadow);
+            color: rgba(255,255,255,0.92);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         .info-section h3 {
-            color: #667eea;
-            margin-bottom: 15px;
+            color: rgba(255,255,255,0.92);
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
         }
 
         .info-section ul {
@@ -239,25 +448,152 @@
 
         .info-section li {
             padding: 8px 0;
-            color: #555;
+            color: rgba(255,255,255,0.78);
+            line-height: 1.35;
         }
 
         .info-section li:before {
-            content: "✓ ";
-            color: #667eea;
-            font-weight: bold;
-            margin-right: 8px;
+            content: "✓";
+            display: inline-flex;
+            width: 22px;
+            height: 22px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 999px;
+            margin-right: 10px;
+            background: rgba(255, 122, 24, 0.14);
+            color: rgba(255, 122, 24, 0.95);
+            font-weight: 900;
+            transform: translateY(1px);
+        }
+
+        /* Extra sections */
+        .section {
+            margin-top: 22px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 14px;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 900;
+            letter-spacing: -0.01em;
+            color: rgba(255,255,255,0.92);
+        }
+
+        .section-subtitle {
+            color: rgba(255,255,255,0.70);
+            font-weight: 650;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+        }
+
+        @media (max-width: 980px) {
+            .grid-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .mini-card {
+            background: linear-gradient(180deg, rgba(18,19,24,0.90) 0%, rgba(18,19,24,0.76) 100%);
+            border: 1px solid rgba(255,255,255,0.10);
+            border-radius: 16px;
+            padding: 18px;
+            box-shadow: var(--shadow2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mini-card::before {
+            content: "";
+            position: absolute;
+            inset: -2px;
+            background:
+                radial-gradient(520px 160px at 15% 0%, rgba(255, 122, 24, 0.14), transparent 55%),
+                radial-gradient(420px 140px at 85% 15%, rgba(255, 61, 0, 0.10), transparent 55%);
+            pointer-events: none;
+        }
+
+        .mini-card h4 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+            font-weight: 900;
+            color: rgba(255,255,255,0.92);
+        }
+
+        .mini-card p {
+            color: rgba(255,255,255,0.74);
+            line-height: 1.5;
+        }
+
+        .footer {
+            margin-top: 26px;
+            padding: 18px 6px 6px;
+            color: rgba(255,255,255,0.55);
+            text-align: center;
+            font-weight: 650;
+        }
+
+        .divider {
+            height: 1px;
+            background: rgba(255,255,255,0.10);
+            margin: 18px 0;
+        }
+
+        .hero-accent {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary2) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        /* Reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.001ms !important;
+                scroll-behavior: auto !important;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🔥 Yangın Tespit Sistemi</h1>
-            <p>YOLOv8 tabanlı gerçek zamanlı yangın algılama sistemi</p>
+            <div class="topbar">
+                <a class="brand" href="#anasayfa" aria-label="FireGuard ana sayfa">
+                    <span class="brand-badge">🔥</span>
+                    <span class="brand-name">Fire<span class="accent">Guard</span></span>
+                </a>
+
+                <nav class="nav" aria-label="site">
+                    <a href="#anasayfa">Ana Sayfa</a>
+                    <a href="#ozellikler">Özellikler</a>
+                    <a href="#hakkimizda">Hakkımızda</a>
+                </nav>
+            </div>
+
+            <div style="text-align:center; padding: 12px 0 6px;">
+                <h1>Akıllı <span class="hero-accent">Yangın</span> Tespit Sistemi</h1>
+                <p>YOLOv8 ile gerçek zamanlı yangın algılama. Hızlı uyarı, yüksek doğruluk, modern arayüz.</p>
+            </div>
         </header>
 
-        <div class="main-content">
+        <div class="main-content" id="anasayfa">
             <!-- Image Upload Section -->
             <div class="card">
                 <h2><span class="icon">📤</span> Görüntü Yükle</h2>
@@ -296,7 +632,7 @@
             <!-- Live Camera Section -->
             <div class="card">
                 <h2><span class="icon">📹</span> Canlı Kamera</h2>
-                <p style="color: #666; margin-bottom: 15px;">Kameranızla gerçek zamanlı yangın tespiti yapın</p>
+                <p style="color: rgba(255,255,255,0.72); margin-bottom: 15px;">Kameranızla gerçek zamanlı yangın tespiti yapın</p>
 
                 <div class="camera-container">
                     <img id="cameraFeed" src="">
@@ -309,8 +645,8 @@
         </div>
 
         <!-- Info Section -->
-        <div class="info-section">
-            <h3>📊 Sistem Özellikleri</h3>
+        <div class="info-section section" id="ozellikler">
+            <h3>⚙️ Özellikler</h3>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
                 <ul>
                     <li>YOLOv8s derin öğrenme modeli</li>
@@ -324,6 +660,36 @@
                 </ul>
             </div>
         </div>
+
+        <div class="section" id="hakkimizda">
+            <div class="section-header">
+                <div>
+                    <div class="section-title">Hakkımızda</div>
+                    <div class="section-subtitle">FireGuard; yangın riskini erken fark edip hızlı aksiyon almanız için tasarlandı.</div>
+                </div>
+            </div>
+
+            <div class="grid-3">
+                <div class="mini-card">
+                    <h4>🎯 Misyon</h4>
+                    <p>Görüntü tabanlı yapay zekâ ile yangın belirtilerini mümkün olan en erken anda tespit ederek can ve mal kaybını azaltmak; anlaşılır uyarı ve hızlı geri bildirim sunmak.</p>
+                </div>
+
+                <div class="mini-card">
+                    <h4>🚀 Vizyon</h4>
+                    <p>Akıllı güvenlik sistemlerinde standart hâline gelen, ölçeklenebilir ve güvenilir bir yangın algılama çözümü olmak; farklı kameralar ve ortamlar için güçlü performans sağlamak.</p>
+                </div>
+
+                <div class="mini-card">
+                    <h4>🛡️ Neden FireGuard?</h4>
+                    <p>Modern arayüz, gerçek zamanlı kamera akışı ve güven skoru ile net sonuçlar. Amaç: "erken tespit" ve "daha hızlı müdahale".</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+        </div>
+
+        <div class="footer">© FireGuard • YOLOv8 tabanlı yangın tespit sistemi</div>
     </div>
 
     <script>
