@@ -1,0 +1,45 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4",
+  "frames": [
+    {
+      "frame_index": 45,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000045"
+    },
+    {
+      "frame_index": 90,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000090"
+    },
+    {
+      "frame_index": 135,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000135"
+    },
+    {
+      "frame_index": 180,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000180"
+    },
+    {
+      "frame_index": 225,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000225"
+    },
+    {
+      "frame_index": 270,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000270"
+    },
+    {
+      "frame_index": 315,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000315"
+    },
+    {
+      "frame_index": 360,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000360"
+    },
+    {
+      "frame_index": 405,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000405"
+    },
+    {
+      "frame_index": 450,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready\\frame_000450"
+    }
+  ]
+}

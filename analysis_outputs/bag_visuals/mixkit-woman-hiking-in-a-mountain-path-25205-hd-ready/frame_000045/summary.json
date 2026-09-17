@@ -1,0 +1,94 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-woman-hiking-in-a-mountain-path-25205-hd-ready.mp4#45",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.372018039226532,
+          "bbox": [
+            3.1378173828125,
+            275.84130859375,
+            1276.4681396484375,
+            713.3673095703125
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.8183044195175171,
+          "bbox": [
+            644.7488403320312,
+            232.36175537109375,
+            765.43310546875,
+            581.3099975585938
+          ]
+        },
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.7996575236320496,
+          "bbox": [
+            670.6478881835938,
+            295.22174072265625,
+            741.8515014648438,
+            404.1466979980469
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.372018039226532,
+        "bbox": [
+          3.1378173828125,
+          275.84130859375,
+          1276.4681396484375,
+          713.3673095703125
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.8183044195175171,
+        "bbox": [
+          644.7488403320312,
+          232.36175537109375,
+          765.43310546875,
+          581.3099975585938
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.7996575236320496,
+        "bbox": [
+          670.6478881835938,
+          295.22174072265625,
+          741.8515014648438,
+          404.1466979980469
+        ]
+      }
+    ]
+  }
+}

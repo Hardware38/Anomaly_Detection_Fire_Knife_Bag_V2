@@ -1,0 +1,116 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4#405",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6485154628753662,
+          "bbox": [
+            357.5563049316406,
+            113.95327758789062,
+            448.4592590332031,
+            180.9365234375
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 3,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.5918458104133606,
+          "bbox": [
+            397.966064453125,
+            0.0,
+            741.0368041992188,
+            563.1077880859375
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.504116415977478,
+          "bbox": [
+            716.6354370117188,
+            0.0,
+            1066.6956787109375,
+            578.6755981445312
+          ]
+        },
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.45936113595962524,
+          "bbox": [
+            192.34835815429688,
+            284.7020568847656,
+            513.6460571289062,
+            629.4911499023438
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 4,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6485154628753662,
+        "bbox": [
+          357.5563049316406,
+          113.95327758789062,
+          448.4592590332031,
+          180.9365234375
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.5918458104133606,
+        "bbox": [
+          397.966064453125,
+          0.0,
+          741.0368041992188,
+          563.1077880859375
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.504116415977478,
+        "bbox": [
+          716.6354370117188,
+          0.0,
+          1066.6956787109375,
+          578.6755981445312
+        ]
+      },
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.45936113595962524,
+        "bbox": [
+          192.34835815429688,
+          284.7020568847656,
+          513.6460571289062,
+          629.4911499023438
+        ]
+      }
+    ]
+  }
+}

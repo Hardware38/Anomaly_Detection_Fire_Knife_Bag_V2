@@ -1,0 +1,1019 @@
+{
+  "summary": {
+    "source": "videos/bag_classifier_raw",
+    "media_scanned": 12,
+    "hard_negative_candidates": 72,
+    "threshold": 0.2,
+    "frame_skip": 20
+  },
+  "candidates": [
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 460,
+      "det_index": 0,
+      "confidence": 0.83381587266922,
+      "bbox": [
+        429.27569580078125,
+        285.624755859375,
+        497.69830322265625,
+        349.66748046875
+      ],
+      "area_ratio": 0.004754741975015754,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00460_0000.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4",
+      "frame_index": 300,
+      "det_index": 0,
+      "confidence": 0.7919577956199646,
+      "bbox": [
+        0.0,
+        269.87359619140625,
+        129.9311065673828,
+        720.0
+      ],
+      "area_ratio": 0.06346074407774217,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready_f00300_0001.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4",
+      "frame_index": 40,
+      "det_index": 0,
+      "confidence": 0.7629601359367371,
+      "bbox": [
+        0.71063232421875,
+        0.6021575927734375,
+        480.5147399902344,
+        195.57115173339844
+      ],
+      "area_ratio": 0.10150490913214323,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready_f00040_0002.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 400,
+      "det_index": 0,
+      "confidence": 0.7279611229896545,
+      "bbox": [
+        374.4794921875,
+        120.66268920898438,
+        454.314453125,
+        177.84725952148438
+      ],
+      "area_ratio": 0.004953697848444184,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00400_0003.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-woman-walking-with-her-luggage-11624-hd-ready.mp4",
+      "frame_index": 120,
+      "det_index": 0,
+      "confidence": 0.7152215242385864,
+      "bbox": [
+        0.4342041015625,
+        399.83984375,
+        332.9150390625,
+        538.2081909179688
+      ],
+      "area_ratio": 0.04991842838386623,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-woman-walking-with-her-luggage-11624-hd-ready_f00120_0004.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4",
+      "frame_index": 20,
+      "det_index": 0,
+      "confidence": 0.7060399651527405,
+      "bbox": [
+        1.695404052734375,
+        0.0,
+        494.03460693359375,
+        185.21926879882812
+      ],
+      "area_ratio": 0.098948249955068,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready_f00020_0005.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 860,
+      "det_index": 0,
+      "confidence": 0.6926501393318176,
+      "bbox": [
+        1015.3984375,
+        162.77633666992188,
+        1133.59375,
+        240.94610595703125
+      ],
+      "area_ratio": 0.010025282453279943,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00860_0006.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 480,
+      "det_index": 0,
+      "confidence": 0.6671336889266968,
+      "bbox": [
+        269.7604064941406,
+        62.59315490722656,
+        322.4263610839844,
+        149.2158660888672
+      ],
+      "area_ratio": 0.004950160344554509,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00480_0007.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 240,
+      "det_index": 0,
+      "confidence": 0.645803689956665,
+      "bbox": [
+        984.965087890625,
+        307.83502197265625,
+        1034.40625,
+        430.46453857421875
+      ],
+      "area_ratio": 0.006578717241419427,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00240_0008.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 80,
+      "det_index": 0,
+      "confidence": 0.6445594429969788,
+      "bbox": [
+        351.61962890625,
+        154.12542724609375,
+        461.264404296875,
+        244.60040283203125
+      ],
+      "area_ratio": 0.010764006485017793,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00080_0009.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 320,
+      "det_index": 0,
+      "confidence": 0.612489640712738,
+      "bbox": [
+        436.0047912597656,
+        135.90756225585938,
+        492.8959045410156,
+        186.65127563476562
+      ],
+      "area_ratio": 0.0031324504624030344,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00320_0010.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 220,
+      "det_index": 0,
+      "confidence": 0.5943590998649597,
+      "bbox": [
+        964.4176025390625,
+        246.80108642578125,
+        1029.7786865234375,
+        412.23529052734375
+      ],
+      "area_ratio": 0.011732811315289129,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00220_0011.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 40,
+      "det_index": 0,
+      "confidence": 0.5936707258224487,
+      "bbox": [
+        391.461669921875,
+        192.88108825683594,
+        436.5772705078125,
+        315.7401123046875
+      ],
+      "area_ratio": 0.006014386563933335,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00040_0012.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 240,
+      "det_index": 1,
+      "confidence": 0.5664031505584717,
+      "bbox": [
+        87.90032958984375,
+        233.9696044921875,
+        139.60415649414062,
+        410.85186767578125
+      ],
+      "area_ratio": 0.009923491664588557,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00240_0013.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 20,
+      "det_index": 0,
+      "confidence": 0.5660930275917053,
+      "bbox": [
+        886.5668334960938,
+        336.24041748046875,
+        929.6056518554688,
+        413.6654052734375
+      ],
+      "area_ratio": 0.0036157551932491415,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00020_0014.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 280,
+      "det_index": 0,
+      "confidence": 0.5607675909996033,
+      "bbox": [
+        418.91937255859375,
+        126.23397827148438,
+        466.83233642578125,
+        192.79388427734375
+      ],
+      "area_ratio": 0.003460375837089992,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00280_0015.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 280,
+      "det_index": 0,
+      "confidence": 0.5523232221603394,
+      "bbox": [
+        944.7391967773438,
+        299.63800048828125,
+        992.8997192382812,
+        410.2032470703125
+      ],
+      "area_ratio": 0.005777864628269324,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00280_0016.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 580,
+      "det_index": 0,
+      "confidence": 0.5490206480026245,
+      "bbox": [
+        1024.5916748046875,
+        183.20542907714844,
+        1059.4288330078125,
+        362.428955078125
+      ],
+      "area_ratio": 0.0067747811729795,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00580_0017.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 500,
+      "det_index": 0,
+      "confidence": 0.5175788998603821,
+      "bbox": [
+        268.56158447265625,
+        56.57164001464844,
+        320.63238525390625,
+        144.89163208007812
+      ],
+      "area_ratio": 0.004990117959896452,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00500_0018.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4",
+      "frame_index": 420,
+      "det_index": 0,
+      "confidence": 0.5142295360565186,
+      "bbox": [
+        734.2642211914062,
+        329.4206848144531,
+        778.9733276367188,
+        478.2358703613281
+      ],
+      "area_ratio": 0.0072193945001021755,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready_f00420_0019.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 620,
+      "det_index": 0,
+      "confidence": 0.5091057419776917,
+      "bbox": [
+        179.1634521484375,
+        546.0230712890625,
+        604.658935546875,
+        719.6595458984375
+      ],
+      "area_ratio": 0.08016659689617679,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00620_0020.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 560,
+      "det_index": 0,
+      "confidence": 0.4980125427246094,
+      "bbox": [
+        228.47657775878906,
+        30.149856567382812,
+        284.17333984375,
+        117.3309326171875
+      ],
+      "area_ratio": 0.005268775663039125,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00560_0021.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 320,
+      "det_index": 1,
+      "confidence": 0.49663546681404114,
+      "bbox": [
+        1113.878662109375,
+        239.76971435546875,
+        1172.727783203125,
+        280.482177734375
+      ],
+      "area_ratio": 0.0025997099472766017,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00320_0022.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 180,
+      "det_index": 0,
+      "confidence": 0.476887047290802,
+      "bbox": [
+        967.0523681640625,
+        333.46075439453125,
+        1005.6810302734375,
+        424.65435791015625
+      ],
+      "area_ratio": 0.0038223599139989043,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00180_0023.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 20,
+      "det_index": 0,
+      "confidence": 0.4716866910457611,
+      "bbox": [
+        361.69403076171875,
+        192.48287963867188,
+        404.16961669921875,
+        308.4554138183594
+      ],
+      "area_ratio": 0.005345053539430308,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00020_0024.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 140,
+      "det_index": 0,
+      "confidence": 0.46098774671554565,
+      "bbox": [
+        384.6693420410156,
+        170.95579528808594,
+        427.3084411621094,
+        305.0531005859375
+      ],
+      "area_ratio": 0.00620419736595775,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00140_0025.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 300,
+      "det_index": 0,
+      "confidence": 0.45898517966270447,
+      "bbox": [
+        918.9681396484375,
+        249.45758056640625,
+        977.0997314453125,
+        420.76287841796875
+      ],
+      "area_ratio": 0.010805392412488193,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00300_0026.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 280,
+      "det_index": 1,
+      "confidence": 0.4560924768447876,
+      "bbox": [
+        986.0802001953125,
+        241.27291870117188,
+        1063.0042724609375,
+        311.4320983886719
+      ],
+      "area_ratio": 0.005856043628882617,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00280_0027.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 580,
+      "det_index": 0,
+      "confidence": 0.45484548807144165,
+      "bbox": [
+        1141.9912109375,
+        522.6431274414062,
+        1279.840576171875,
+        683.4773559570312
+      ],
+      "area_ratio": 0.024056962140667666,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00580_0028.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-woman-walking-with-her-luggage-11624-hd-ready.mp4",
+      "frame_index": 40,
+      "det_index": 0,
+      "confidence": 0.43320927023887634,
+      "bbox": [
+        543.3853759765625,
+        141.69705200195312,
+        583.91064453125,
+        176.39468383789062
+      ],
+      "area_ratio": 0.0015257496184494812,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-woman-walking-with-her-luggage-11624-hd-ready_f00040_0029.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-woman-hiking-in-a-mountain-path-25205-hd-ready.mp4",
+      "frame_index": 80,
+      "det_index": 0,
+      "confidence": 0.42096617817878723,
+      "bbox": [
+        761.5211181640625,
+        295.0689392089844,
+        819.6690673828125,
+        438.4606018066406
+      ],
+      "area_ratio": 0.00904723428290001,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-woman-hiking-in-a-mountain-path-25205-hd-ready_f00080_0030.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-tourist-from-behind-appreciating-the-view-on-a-chroma-key-28297-hd-ready.mp4",
+      "frame_index": 440,
+      "det_index": 0,
+      "confidence": 0.42003971338272095,
+      "bbox": [
+        777.4262084960938,
+        321.47967529296875,
+        818.3475952148438,
+        469.14251708984375
+      ],
+      "area_ratio": 0.006556606177473441,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-tourist-from-behind-appreciating-the-view-on-a-chroma-key-28297-hd-ready_f00440_0031.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-woman-hiking-in-a-mountain-path-25205-hd-ready.mp4",
+      "frame_index": 180,
+      "det_index": 1,
+      "confidence": 0.41816139221191406,
+      "bbox": [
+        827.18017578125,
+        258.28741455078125,
+        878.390380859375,
+        388.11102294921875
+      ],
+      "area_ratio": 0.007213860253978055,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-woman-hiking-in-a-mountain-path-25205-hd-ready_f00180_0032.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 400,
+      "det_index": 1,
+      "confidence": 0.41185370087623596,
+      "bbox": [
+        317.89117431640625,
+        92.28407287597656,
+        367.45208740234375,
+        167.58274841308594
+      ],
+      "area_ratio": 0.004049339316168496,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00400_0033.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 460,
+      "det_index": 1,
+      "confidence": 0.4116290509700775,
+      "bbox": [
+        330.28851318359375,
+        104.56808471679688,
+        405.91888427734375,
+        167.36654663085938
+      ],
+      "area_ratio": 0.00515350583623836,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00460_0034.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 120,
+      "det_index": 0,
+      "confidence": 0.3859056234359741,
+      "bbox": [
+        368.2170104980469,
+        188.83262634277344,
+        403.9895324707031,
+        312.0556640625
+      ],
+      "area_ratio": 0.004782984835466979,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00120_0035.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 540,
+      "det_index": 0,
+      "confidence": 0.38533616065979004,
+      "bbox": [
+        991.1500244140625,
+        201.4571990966797,
+        1031.0782470703125,
+        363.08917236328125
+      ],
+      "area_ratio": 0.007002688169442182,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00540_0036.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 140,
+      "det_index": 0,
+      "confidence": 0.3788151741027832,
+      "bbox": [
+        386.16790771484375,
+        73.53864288330078,
+        489.25640869140625,
+        226.83819580078125
+      ],
+      "area_ratio": 0.017147809364844054,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00140_0037.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 220,
+      "det_index": 0,
+      "confidence": 0.3682747781276703,
+      "bbox": [
+        388.7481689453125,
+        188.413818359375,
+        431.2969970703125,
+        311.234375
+      ],
+      "area_ratio": 0.005670432676561176,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00220_0038.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-woman-walking-with-her-luggage-11624-hd-ready.mp4",
+      "frame_index": 100,
+      "det_index": 0,
+      "confidence": 0.365767240524292,
+      "bbox": [
+        95.10336303710938,
+        323.0065002441406,
+        392.3382263183594,
+        425.1688537597656
+      ],
+      "area_ratio": 0.03294945006478681,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-woman-walking-with-her-luggage-11624-hd-ready_f00100_0039.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 740,
+      "det_index": 0,
+      "confidence": 0.358423113822937,
+      "bbox": [
+        336.96343994140625,
+        84.5759048461914,
+        393.82891845703125,
+        160.63339233398438
+      ],
+      "area_ratio": 0.0046929746318245535,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00740_0040.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 560,
+      "det_index": 1,
+      "confidence": 0.35776185989379883,
+      "bbox": [
+        1017.9368896484375,
+        166.32730102539062,
+        1046.2557373046875,
+        367.5227355957031
+      ],
+      "area_ratio": 0.006182316472145935,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00560_0041.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4",
+      "frame_index": 380,
+      "det_index": 0,
+      "confidence": 0.3493952751159668,
+      "bbox": [
+        849.3111572265625,
+        161.4000244140625,
+        886.7332763671875,
+        269.23663330078125
+      ],
+      "area_ratio": 0.004378769992925097,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready_f00380_0042.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 860,
+      "det_index": 1,
+      "confidence": 0.34751611948013306,
+      "bbox": [
+        344.924560546875,
+        93.81568908691406,
+        405.18902587890625,
+        155.4814910888672
+      ],
+      "area_ratio": 0.00403239647018078,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00860_0043.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 840,
+      "det_index": 0,
+      "confidence": 0.3279929757118225,
+      "bbox": [
+        1005.4815063476562,
+        166.90603637695312,
+        1109.83544921875,
+        242.791748046875
+      ],
+      "area_ratio": 0.008592635872759678,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00840_0044.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 280,
+      "det_index": 0,
+      "confidence": 0.31669071316719055,
+      "bbox": [
+        1226.4091796875,
+        324.79266357421875,
+        1280.0,
+        359.74517822265625
+      ],
+      "area_ratio": 0.002032480394959243,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00280_0045.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 720,
+      "det_index": 0,
+      "confidence": 0.314584344625473,
+      "bbox": [
+        337.62908935546875,
+        93.46141052246094,
+        393.3187255859375,
+        153.1687774658203
+      ],
+      "area_ratio": 0.003607944385150606,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00720_0046.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 620,
+      "det_index": 0,
+      "confidence": 0.3138381540775299,
+      "bbox": [
+        1049.89599609375,
+        185.09011840820312,
+        1079.681640625,
+        365.5519714355469
+      ],
+      "area_ratio": 0.005832435553085007,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00620_0047.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4",
+      "frame_index": 200,
+      "det_index": 0,
+      "confidence": 0.297834187746048,
+      "bbox": [
+        450.00836181640625,
+        169.4798583984375,
+        494.30865478515625,
+        327.42205810546875
+      ],
+      "area_ratio": 0.007592106900119688,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-students-walking-through-a-college-4560-hd-ready_f00200_0048.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 580,
+      "det_index": 1,
+      "confidence": 0.295602023601532,
+      "bbox": [
+        213.04855346679688,
+        21.577102661132812,
+        269.9767150878906,
+        115.01806640625
+      ],
+      "area_ratio": 0.005771942584757805,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00580_0049.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 520,
+      "det_index": 0,
+      "confidence": 0.27691733837127686,
+      "bbox": [
+        326.38970947265625,
+        91.7363510131836,
+        390.62799072265625,
+        151.39578247070312
+      ],
+      "area_ratio": 0.004158441121075561,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00520_0050.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 520,
+      "det_index": 1,
+      "confidence": 0.2743604779243469,
+      "bbox": [
+        261.62567138671875,
+        48.800506591796875,
+        314.88800048828125,
+        139.00672912597656
+      ],
+      "area_ratio": 0.00521331761243952,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00520_0051.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-young-woman-walking-in-the-wilderness-25020-hd-ready.mp4",
+      "frame_index": 440,
+      "det_index": 0,
+      "confidence": 0.26682978868484497,
+      "bbox": [
+        324.89422607421875,
+        181.05673217773438,
+        392.10809326171875,
+        247.08029174804688
+      ],
+      "area_ratio": 0.004815211332687694,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-young-woman-walking-in-the-wilderness-25020-hd-ready_f00440_0052.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 520,
+      "det_index": 0,
+      "confidence": 0.2655077874660492,
+      "bbox": [
+        1014.7808837890625,
+        512.9511108398438,
+        1279.8529052734375,
+        710.6574096679688
+      ],
+      "area_ratio": 0.056864592329172105,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00520_0053.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 300,
+      "det_index": 0,
+      "confidence": 0.26487481594085693,
+      "bbox": [
+        441.61712646484375,
+        135.17652893066406,
+        495.94561767578125,
+        184.2164764404297
+      ],
+      "area_ratio": 0.0028909140161340473,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00300_0054.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 360,
+      "det_index": 0,
+      "confidence": 0.2599577009677887,
+      "bbox": [
+        643.7200927734375,
+        0.0,
+        713.5010986328125,
+        143.7277374267578
+      ],
+      "area_ratio": 0.010882667195671982,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00360_0055.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 580,
+      "det_index": 1,
+      "confidence": 0.2517220675945282,
+      "bbox": [
+        292.72100830078125,
+        522.810546875,
+        644.2041015625,
+        670.517822265625
+      ],
+      "area_ratio": 0.056333127226082275,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00580_0056.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready.mp4",
+      "frame_index": 160,
+      "det_index": 0,
+      "confidence": 0.24890144169330597,
+      "bbox": [
+        683.887939453125,
+        204.32855224609375,
+        712.19287109375,
+        328.43194580078125
+      ],
+      "area_ratio": 0.003811564747108302,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready_f00160_0057.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 360,
+      "det_index": 0,
+      "confidence": 0.24841538071632385,
+      "bbox": [
+        504.1543273925781,
+        172.80825805664062,
+        533.181884765625,
+        302.8511047363281
+      ],
+      "area_ratio": 0.004095948560057473,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00360_0058.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 180,
+      "det_index": 0,
+      "confidence": 0.24795372784137726,
+      "bbox": [
+        447.2618103027344,
+        191.514892578125,
+        497.9284362792969,
+        316.4173583984375
+      ],
+      "area_ratio": 0.006866738844692009,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00180_0059.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 600,
+      "det_index": 0,
+      "confidence": 0.2469514012336731,
+      "bbox": [
+        255.74945068359375,
+        547.0494384765625,
+        567.8209228515625,
+        693.30810546875
+      ],
+      "area_ratio": 0.04952599557896772,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00600_0060.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 280,
+      "det_index": 1,
+      "confidence": 0.24261826276779175,
+      "bbox": [
+        1240.5997314453125,
+        284.27313232421875,
+        1280.0,
+        336.71417236328125
+      ],
+      "area_ratio": 0.0022419607864867432,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00280_0061.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 260,
+      "det_index": 0,
+      "confidence": 0.2409905642271042,
+      "bbox": [
+        1007.2648315429688,
+        235.61044311523438,
+        1049.403076171875,
+        268.8094177246094
+      ],
+      "area_ratio": 0.0015179541162312186,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00260_0062.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4",
+      "frame_index": 620,
+      "det_index": 2,
+      "confidence": 0.23548796772956848,
+      "bbox": [
+        1174.156005859375,
+        0.0,
+        1209.239013671875,
+        41.21429443359375
+      ],
+      "area_ratio": 0.0015689251449657604,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-following-a-bike-through-the-city-14047-hd-ready_f00620_0063.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4",
+      "frame_index": 440,
+      "det_index": 0,
+      "confidence": 0.2336040586233139,
+      "bbox": [
+        963.3413696289062,
+        0.0,
+        1280.0,
+        239.61618041992188
+      ],
+      "area_ratio": 0.08233130588815685,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready_f00440_0064.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 340,
+      "det_index": 0,
+      "confidence": 0.231322780251503,
+      "bbox": [
+        1132.9278564453125,
+        227.59608459472656,
+        1210.2330322265625,
+        300.6553955078125
+      ],
+      "area_ratio": 0.006128323429463004,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00340_0065.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 820,
+      "det_index": 0,
+      "confidence": 0.22828105092048645,
+      "bbox": [
+        346.1103515625,
+        90.18588256835938,
+        408.265380859375,
+        148.65335083007812
+      ],
+      "area_ratio": 0.003943193579341621,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00820_0066.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 440,
+      "det_index": 0,
+      "confidence": 0.21490855515003204,
+      "bbox": [
+        378.53076171875,
+        116.92059326171875,
+        421.2513427734375,
+        165.8863525390625
+      ],
+      "area_ratio": 0.0022697978386632812,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00440_0067.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 380,
+      "det_index": 0,
+      "confidence": 0.21315236389636993,
+      "bbox": [
+        399.796875,
+        118.64529418945312,
+        456.1641845703125,
+        191.16885375976562
+      ],
+      "area_ratio": 0.004435718243750873,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00380_0068.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 800,
+      "det_index": 0,
+      "confidence": 0.20693764090538025,
+      "bbox": [
+        345.5877685546875,
+        88.09001922607422,
+        403.18597412109375,
+        159.22430419921875
+      ],
+      "area_ratio": 0.004445754306317819,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00800_0069.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready.mp4",
+      "frame_index": 60,
+      "det_index": 0,
+      "confidence": 0.20068293809890747,
+      "bbox": [
+        704.4508056640625,
+        309.1286926269531,
+        782.9259033203125,
+        357.0299377441406
+      ],
+      "area_ratio": 0.004078835599421938,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready_f00060_0070.jpg"
+    },
+    {
+      "source_path": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4",
+      "frame_index": 260,
+      "det_index": 1,
+      "confidence": 0.2000914216041565,
+      "bbox": [
+        1030.4873046875,
+        55.49971008300781,
+        1096.17626953125,
+        114.12568664550781
+      ],
+      "area_ratio": 0.004178688925070067,
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_bag\\crops\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready_f00260_0071.jpg"
+    }
+  ]
+}

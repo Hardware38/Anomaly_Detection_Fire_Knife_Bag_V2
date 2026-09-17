@@ -1,0 +1,138 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-luggage-moving-down-a-conveyer-belt-loading-onto-a-plane-46499-hd-ready.mp4#270",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6232675909996033,
+          "bbox": [
+            1.671844482421875,
+            180.71759033203125,
+            289.1114196777344,
+            720.0
+          ]
+        },
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.5091068148612976,
+          "bbox": [
+            304.19073486328125,
+            0.0,
+            473.50274658203125,
+            719.3172607421875
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 3,
+      "detections": [
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.7046775221824646,
+          "bbox": [
+            1120.0484619140625,
+            374.06170654296875,
+            1278.57421875,
+            457.2001953125
+          ]
+        },
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.6662280559539795,
+          "bbox": [
+            577.7720947265625,
+            398.47674560546875,
+            926.529296875,
+            720.0
+          ]
+        },
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.6436070203781128,
+          "bbox": [
+            1034.837890625,
+            20.008224487304688,
+            1192.23779296875,
+            153.1702880859375
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 5,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6232675909996033,
+        "bbox": [
+          1.671844482421875,
+          180.71759033203125,
+          289.1114196777344,
+          720.0
+        ]
+      },
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.5091068148612976,
+        "bbox": [
+          304.19073486328125,
+          0.0,
+          473.50274658203125,
+          719.3172607421875
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.7046775221824646,
+        "bbox": [
+          1120.0484619140625,
+          374.06170654296875,
+          1278.57421875,
+          457.2001953125
+        ]
+      },
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.6662280559539795,
+        "bbox": [
+          577.7720947265625,
+          398.47674560546875,
+          926.529296875,
+          720.0
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.6436070203781128,
+        "bbox": [
+          1034.837890625,
+          20.008224487304688,
+          1192.23779296875,
+          153.1702880859375
+        ]
+      }
+    ]
+  }
+}

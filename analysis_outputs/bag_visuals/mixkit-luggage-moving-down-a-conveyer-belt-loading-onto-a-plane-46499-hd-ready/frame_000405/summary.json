@@ -1,0 +1,94 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-luggage-moving-down-a-conveyer-belt-loading-onto-a-plane-46499-hd-ready.mp4#405",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.43318912386894226,
+          "bbox": [
+            309.91650390625,
+            0.0,
+            530.0810546875,
+            720.0
+          ]
+        },
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.3975297212600708,
+          "bbox": [
+            3.31402587890625,
+            0.0,
+            306.177490234375,
+            720.0
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.6899384260177612,
+          "bbox": [
+            1163.7646484375,
+            381.7951354980469,
+            1271.103515625,
+            449.6368408203125
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.43318912386894226,
+        "bbox": [
+          309.91650390625,
+          0.0,
+          530.0810546875,
+          720.0
+        ]
+      },
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.3975297212600708,
+        "bbox": [
+          3.31402587890625,
+          0.0,
+          306.177490234375,
+          720.0
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.6899384260177612,
+        "bbox": [
+          1163.7646484375,
+          381.7951354980469,
+          1271.103515625,
+          449.6368408203125
+        ]
+      }
+    ]
+  }
+}

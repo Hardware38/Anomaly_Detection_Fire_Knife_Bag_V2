@@ -1,0 +1,49 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-lawyer-walking-with-her-suitcase-6018-hd-ready.mp4#360",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.905102550983429,
+          "bbox": [
+            683.3756713867188,
+            186.51776123046875,
+            959.7421875,
+            525.1707763671875
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 1,
+    "detections": [
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.905102550983429,
+        "bbox": [
+          683.3756713867188,
+          186.51776123046875,
+          959.7421875,
+          525.1707763671875
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-students-walking-through-a-college-4560-hd-ready.mp4#360",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 4,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.8324755430221558,
+          "bbox": [
+            222.32723999023438,
+            193.00982666015625,
+            366.827392578125,
+            579.5010986328125
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.7114355564117432,
+          "bbox": [
+            736.8116455078125,
+            31.937255859375,
+            937.9830322265625,
+            717.2601318359375
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.6762272715568542,
+          "bbox": [
+            490.58148193359375,
+            106.78215026855469,
+            691.338134765625,
+            695.666015625
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.6133308410644531,
+          "bbox": [
+            382.072998046875,
+            192.44818115234375,
+            491.97576904296875,
+            589.2885131835938
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 4,
+    "detections": [
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.8324755430221558,
+        "bbox": [
+          222.32723999023438,
+          193.00982666015625,
+          366.827392578125,
+          579.5010986328125
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.7114355564117432,
+        "bbox": [
+          736.8116455078125,
+          31.937255859375,
+          937.9830322265625,
+          717.2601318359375
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.6762272715568542,
+        "bbox": [
+          490.58148193359375,
+          106.78215026855469,
+          691.338134765625,
+          695.666015625
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.6133308410644531,
+        "bbox": [
+          382.072998046875,
+          192.44818115234375,
+          491.97576904296875,
+          589.2885131835938
+        ]
+      }
+    ]
+  }
+}

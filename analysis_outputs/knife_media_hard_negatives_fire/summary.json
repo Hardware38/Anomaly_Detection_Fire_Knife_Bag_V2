@@ -1,0 +1,1051 @@
+{
+  "summary": {
+    "source": "videos/fire",
+    "media_scanned": 8,
+    "hard_negative_candidates": 80,
+    "threshold": 0.2,
+    "frame_skip": 30
+  },
+  "candidates": [
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 210,
+      "det_index": 0,
+      "confidence": 0.9646272659301758,
+      "bbox": [
+        0.0,
+        533.662841796875,
+        718.1446533203125,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00210_0000.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 180,
+      "det_index": 0,
+      "confidence": 0.9471794962882996,
+      "bbox": [
+        0.0,
+        572.614501953125,
+        717.89794921875,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00180_0001.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 480,
+      "det_index": 0,
+      "confidence": 0.9348196387290955,
+      "bbox": [
+        1.61663818359375,
+        399.10302734375,
+        707.3661499023438,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00480_0002.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 930,
+      "det_index": 0,
+      "confidence": 0.7844167947769165,
+      "bbox": [
+        0.9345703125,
+        0.2523345947265625,
+        714.8668212890625,
+        155.59815979003906
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00930_0003.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 150,
+      "det_index": 0,
+      "confidence": 0.7798552513122559,
+      "bbox": [
+        0.331298828125,
+        87.756591796875,
+        720.0,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00150_0004.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 6210,
+      "det_index": 0,
+      "confidence": 0.7709544897079468,
+      "bbox": [
+        0.0,
+        140.11834716796875,
+        249.19483947753906,
+        714.9928588867188
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f06210_0005.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 60,
+      "det_index": 0,
+      "confidence": 0.7630980014801025,
+      "bbox": [
+        426.13909912109375,
+        0.120758056640625,
+        561.9329223632812,
+        231.90518188476562
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00060_0006.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 780,
+      "det_index": 0,
+      "confidence": 0.7573421597480774,
+      "bbox": [
+        5.6466064453125,
+        1204.302001953125,
+        712.1229248046875,
+        1279.125732421875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00780_0007.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 1050,
+      "det_index": 0,
+      "confidence": 0.7507612109184265,
+      "bbox": [
+        4.30352783203125,
+        696.5628662109375,
+        714.8287353515625,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f01050_0008.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 450,
+      "det_index": 0,
+      "confidence": 0.7451028823852539,
+      "bbox": [
+        0.9051513671875,
+        513.6041259765625,
+        718.9659423828125,
+        1279.7879638671875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00450_0009.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 240,
+      "det_index": 0,
+      "confidence": 0.7349671721458435,
+      "bbox": [
+        0.0,
+        198.302734375,
+        716.4046630859375,
+        1279.831298828125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00240_0010.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 1020,
+      "det_index": 0,
+      "confidence": 0.7052026987075806,
+      "bbox": [
+        213.82708740234375,
+        557.418701171875,
+        552.42041015625,
+        680.9794921875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f01020_0011.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 3660,
+      "det_index": 0,
+      "confidence": 0.7050685286521912,
+      "bbox": [
+        0.0,
+        61.1734619140625,
+        499.96466064453125,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f03660_0012.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 7980,
+      "det_index": 0,
+      "confidence": 0.6794784665107727,
+      "bbox": [
+        64.56805419921875,
+        109.28973388671875,
+        335.9869384765625,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f07980_0013.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 8010,
+      "det_index": 0,
+      "confidence": 0.6726774573326111,
+      "bbox": [
+        8.87445068359375,
+        116.45703125,
+        329.96044921875,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f08010_0014.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5880,
+      "det_index": 0,
+      "confidence": 0.6709709167480469,
+      "bbox": [
+        89.99778747558594,
+        297.64361572265625,
+        525.4256591796875,
+        714.9479370117188
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05880_0015.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 390,
+      "det_index": 0,
+      "confidence": 0.6676828265190125,
+      "bbox": [
+        0.93658447265625,
+        491.1950378417969,
+        716.8093872070312,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00390_0016.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 360,
+      "det_index": 0,
+      "confidence": 0.6537908911705017,
+      "bbox": [
+        0.6197509765625,
+        135.721435546875,
+        719.0179443359375,
+        1279.98291015625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00360_0017.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\11210471-hd_1080_1920_30fps.mp4",
+      "frame_index": 90,
+      "det_index": 0,
+      "confidence": 0.6529592275619507,
+      "bbox": [
+        171.59359741210938,
+        1158.62158203125,
+        223.81643676757812,
+        1276.4619140625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\11210471-hd_1080_1920_30fps_f00090_0018.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 8040,
+      "det_index": 0,
+      "confidence": 0.6425755620002747,
+      "bbox": [
+        22.593170166015625,
+        112.6251220703125,
+        328.7474060058594,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f08040_0019.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 1050,
+      "det_index": 1,
+      "confidence": 0.6319382190704346,
+      "bbox": [
+        207.3118896484375,
+        550.9146728515625,
+        554.4236450195312,
+        676.7391357421875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f01050_0020.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 420,
+      "det_index": 0,
+      "confidence": 0.6281686425209045,
+      "bbox": [
+        0.6214599609375,
+        475.3804931640625,
+        718.9176025390625,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00420_0021.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 8070,
+      "det_index": 0,
+      "confidence": 0.6146003007888794,
+      "bbox": [
+        3.812103271484375,
+        116.15106201171875,
+        332.2415466308594,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f08070_0022.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\3696057-hd_1920_1080_24fps.mp4",
+      "frame_index": 270,
+      "det_index": 0,
+      "confidence": 0.6136560440063477,
+      "bbox": [
+        528.0159912109375,
+        541.197021484375,
+        1171.064697265625,
+        959.1484375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\3696057-hd_1920_1080_24fps_f00270_0023.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 690,
+      "det_index": 0,
+      "confidence": 0.6052172780036926,
+      "bbox": [
+        0.4246826171875,
+        418.48480224609375,
+        716.0453491210938,
+        667.3618774414062
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00690_0024.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 330,
+      "det_index": 0,
+      "confidence": 0.5887401700019836,
+      "bbox": [
+        132.90603637695312,
+        144.5250244140625,
+        288.0423583984375,
+        643.180419921875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f00330_0025.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\14213646-uhd_2732_1440_24fps.mp4",
+      "frame_index": 480,
+      "det_index": 0,
+      "confidence": 0.5666205286979675,
+      "bbox": [
+        4.1150288581848145,
+        161.81658935546875,
+        2726.739501953125,
+        1401.57275390625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\14213646-uhd_2732_1440_24fps_f00480_0026.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5070,
+      "det_index": 0,
+      "confidence": 0.565079927444458,
+      "bbox": [
+        75.68477630615234,
+        532.3589477539062,
+        218.86428833007812,
+        712.8789672851562
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05070_0027.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 4590,
+      "det_index": 0,
+      "confidence": 0.5639785528182983,
+      "bbox": [
+        0.385406494140625,
+        309.07781982421875,
+        336.5081787109375,
+        718.2045288085938
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f04590_0028.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 6450,
+      "det_index": 0,
+      "confidence": 0.5623441934585571,
+      "bbox": [
+        0.0,
+        137.03271484375,
+        217.30743408203125,
+        719.7513427734375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f06450_0029.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 660,
+      "det_index": 0,
+      "confidence": 0.5473948121070862,
+      "bbox": [
+        2.94305419921875,
+        703.8612060546875,
+        717.9086303710938,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00660_0030.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 270,
+      "det_index": 0,
+      "confidence": 0.5375624895095825,
+      "bbox": [
+        0.0,
+        724.0963134765625,
+        716.9873046875,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00270_0031.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5730,
+      "det_index": 0,
+      "confidence": 0.5315500497817993,
+      "bbox": [
+        0.1286163330078125,
+        260.74664306640625,
+        215.63076782226562,
+        712.1863403320312
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05730_0032.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\14213646-uhd_2732_1440_24fps.mp4",
+      "frame_index": 570,
+      "det_index": 0,
+      "confidence": 0.5283779501914978,
+      "bbox": [
+        1.4283010959625244,
+        70.55917358398438,
+        2724.081787109375,
+        1389.442626953125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\14213646-uhd_2732_1440_24fps_f00570_0033.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 90,
+      "det_index": 0,
+      "confidence": 0.5283085703849792,
+      "bbox": [
+        8.259963989257812,
+        0.0,
+        500.70233154296875,
+        191.43894958496094
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00090_0034.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 510,
+      "det_index": 0,
+      "confidence": 0.5095189213752747,
+      "bbox": [
+        1.9136962890625,
+        298.8363037109375,
+        619.04931640625,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00510_0035.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\3696057-hd_1920_1080_24fps.mp4",
+      "frame_index": 30,
+      "det_index": 0,
+      "confidence": 0.5032013654708862,
+      "bbox": [
+        512.9778442382812,
+        512.322509765625,
+        1161.444091796875,
+        938.0277099609375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\3696057-hd_1920_1080_24fps_f00030_0036.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 1260,
+      "det_index": 0,
+      "confidence": 0.49728846549987793,
+      "bbox": [
+        4.08648681640625,
+        623.478515625,
+        647.3671264648438,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f01260_0037.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 300,
+      "det_index": 0,
+      "confidence": 0.48793599009513855,
+      "bbox": [
+        129.39553833007812,
+        141.06982421875,
+        289.01239013671875,
+        627.50244140625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f00300_0038.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 390,
+      "det_index": 0,
+      "confidence": 0.48354610800743103,
+      "bbox": [
+        0.0,
+        144.65673828125,
+        290.30804443359375,
+        703.19189453125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f00390_0039.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 6390,
+      "det_index": 0,
+      "confidence": 0.4827677309513092,
+      "bbox": [
+        0.0,
+        136.67816162109375,
+        322.78155517578125,
+        718.8109130859375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f06390_0040.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 8100,
+      "det_index": 0,
+      "confidence": 0.4824700355529785,
+      "bbox": [
+        1.143280029296875,
+        143.55517578125,
+        334.3043518066406,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f08100_0041.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5490,
+      "det_index": 0,
+      "confidence": 0.4807286262512207,
+      "bbox": [
+        0.0,
+        298.6678466796875,
+        223.48291015625,
+        717.820068359375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05490_0042.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5340,
+      "det_index": 0,
+      "confidence": 0.4697214663028717,
+      "bbox": [
+        0.0,
+        236.4490966796875,
+        203.0796661376953,
+        715.714111328125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05340_0043.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 300,
+      "det_index": 0,
+      "confidence": 0.4646565318107605,
+      "bbox": [
+        0.7752685546875,
+        441.0733337402344,
+        720.0,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00300_0044.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 990,
+      "det_index": 0,
+      "confidence": 0.4593382477760315,
+      "bbox": [
+        6.70849609375,
+        457.9998779296875,
+        716.4732666015625,
+        1262.552001953125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00990_0045.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 630,
+      "det_index": 0,
+      "confidence": 0.4533509314060211,
+      "bbox": [
+        0.0,
+        132.59588623046875,
+        301.33489990234375,
+        719.7843627929688
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f00630_0046.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\14213646-uhd_2732_1440_24fps.mp4",
+      "frame_index": 150,
+      "det_index": 0,
+      "confidence": 0.45182693004608154,
+      "bbox": [
+        3.894608736038208,
+        111.76338958740234,
+        2728.106201171875,
+        1392.4337158203125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\14213646-uhd_2732_1440_24fps_f00150_0047.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 3720,
+      "det_index": 0,
+      "confidence": 0.44724833965301514,
+      "bbox": [
+        1.0360107421875,
+        121.95111083984375,
+        507.7731018066406,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f03720_0048.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 7560,
+      "det_index": 0,
+      "confidence": 0.4368394911289215,
+      "bbox": [
+        0.0,
+        107.1982421875,
+        224.28794860839844,
+        717.37158203125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f07560_0049.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 600,
+      "det_index": 0,
+      "confidence": 0.43523237109184265,
+      "bbox": [
+        3.24053955078125,
+        918.0413208007812,
+        709.721923828125,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00600_0050.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 4650,
+      "det_index": 0,
+      "confidence": 0.43314510583877563,
+      "bbox": [
+        1.226043701171875,
+        299.6886291503906,
+        366.0220947265625,
+        718.8914794921875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f04650_0051.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5550,
+      "det_index": 0,
+      "confidence": 0.42206981778144836,
+      "bbox": [
+        0.0,
+        250.850830078125,
+        209.06129455566406,
+        712.104248046875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05550_0052.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 8130,
+      "det_index": 0,
+      "confidence": 0.4214041829109192,
+      "bbox": [
+        65.73013305664062,
+        113.12359619140625,
+        332.0013122558594,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f08130_0053.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 1020,
+      "det_index": 1,
+      "confidence": 0.410866379737854,
+      "bbox": [
+        4.50640869140625,
+        686.165771484375,
+        717.7919311523438,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f01020_0054.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 180,
+      "det_index": 0,
+      "confidence": 0.39978405833244324,
+      "bbox": [
+        116.84844970703125,
+        139.2220001220703,
+        289.86395263671875,
+        603.2216186523438
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f00180_0055.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5430,
+      "det_index": 0,
+      "confidence": 0.39899128675460815,
+      "bbox": [
+        38.78541564941406,
+        532.712646484375,
+        215.42437744140625,
+        717.3037109375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05430_0056.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\14213646-uhd_2732_1440_24fps.mp4",
+      "frame_index": 180,
+      "det_index": 0,
+      "confidence": 0.3838379383087158,
+      "bbox": [
+        3.7023274898529053,
+        60.32852554321289,
+        2731.620361328125,
+        1379.794677734375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\14213646-uhd_2732_1440_24fps_f00180_0057.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 6420,
+      "det_index": 0,
+      "confidence": 0.38356542587280273,
+      "bbox": [
+        0.0,
+        130.77130126953125,
+        327.2368469238281,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f06420_0058.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 270,
+      "det_index": 1,
+      "confidence": 0.3799421787261963,
+      "bbox": [
+        0.1895751953125,
+        163.297119140625,
+        712.7918701171875,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00270_0059.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 120,
+      "det_index": 0,
+      "confidence": 0.37944933772087097,
+      "bbox": [
+        0.176025390625,
+        0.0,
+        600.3289184570312,
+        346.06500244140625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00120_0060.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 510,
+      "det_index": 1,
+      "confidence": 0.37910178303718567,
+      "bbox": [
+        4.6798095703125,
+        0.0,
+        704.1962890625,
+        181.5497283935547
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00510_0061.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 8400,
+      "det_index": 0,
+      "confidence": 0.3755362629890442,
+      "bbox": [
+        1.117950439453125,
+        276.2730712890625,
+        343.77362060546875,
+        718.473388671875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f08400_0062.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\14213646-uhd_2732_1440_24fps.mp4",
+      "frame_index": 690,
+      "det_index": 0,
+      "confidence": 0.36655086278915405,
+      "bbox": [
+        5.593875408172607,
+        15.816441535949707,
+        2726.037109375,
+        1405.9205322265625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\14213646-uhd_2732_1440_24fps_f00690_0063.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 480,
+      "det_index": 1,
+      "confidence": 0.3618980050086975,
+      "bbox": [
+        8.129638671875,
+        0.1576385498046875,
+        713.434814453125,
+        168.9306640625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00480_0064.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 960,
+      "det_index": 0,
+      "confidence": 0.3585675358772278,
+      "bbox": [
+        3.9326171875,
+        456.17138671875,
+        681.7247314453125,
+        1247.632568359375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00960_0065.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\11210471-hd_1080_1920_30fps.mp4",
+      "frame_index": 750,
+      "det_index": 0,
+      "confidence": 0.35554638504981995,
+      "bbox": [
+        52.550445556640625,
+        1141.1884765625,
+        130.15447998046875,
+        1254.587890625
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\11210471-hd_1080_1920_30fps_f00750_0066.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 6150,
+      "det_index": 0,
+      "confidence": 0.35145801305770874,
+      "bbox": [
+        0.0,
+        109.41693115234375,
+        208.38348388671875,
+        716.4651489257812
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f06150_0067.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\14213646-uhd_2732_1440_24fps.mp4",
+      "frame_index": 660,
+      "det_index": 0,
+      "confidence": 0.34564971923828125,
+      "bbox": [
+        1.615110993385315,
+        76.55636596679688,
+        2725.9541015625,
+        1397.1064453125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\14213646-uhd_2732_1440_24fps_f00660_0068.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 3450,
+      "det_index": 0,
+      "confidence": 0.33757686614990234,
+      "bbox": [
+        0.61492919921875,
+        403.09228515625,
+        248.97555541992188,
+        718.7073974609375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f03450_0069.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5790,
+      "det_index": 0,
+      "confidence": 0.3359664976596832,
+      "bbox": [
+        0.0,
+        140.70574951171875,
+        220.52122497558594,
+        715.5387573242188
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05790_0070.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 330,
+      "det_index": 0,
+      "confidence": 0.3322329819202423,
+      "bbox": [
+        1.531982421875,
+        527.03515625,
+        714.3626708984375,
+        1278.788330078125
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00330_0071.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 450,
+      "det_index": 1,
+      "confidence": 0.3237505853176117,
+      "bbox": [
+        36.788330078125,
+        0.0,
+        717.4559326171875,
+        186.49755859375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00450_0072.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 6120,
+      "det_index": 0,
+      "confidence": 0.3149046003818512,
+      "bbox": [
+        0.0,
+        139.7972412109375,
+        225.81185913085938,
+        717.362060546875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f06120_0073.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 5250,
+      "det_index": 0,
+      "confidence": 0.31404510140419006,
+      "bbox": [
+        86.11471557617188,
+        535.2346801757812,
+        219.35971069335938,
+        705.6107788085938
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f05250_0074.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 150,
+      "det_index": 0,
+      "confidence": 0.31293627619743347,
+      "bbox": [
+        123.04330444335938,
+        139.048828125,
+        288.032470703125,
+        599.993896484375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f00150_0075.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 4620,
+      "det_index": 0,
+      "confidence": 0.3075803816318512,
+      "bbox": [
+        0.287078857421875,
+        138.2138671875,
+        330.0499267578125,
+        719.484375
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f04620_0076.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Building the top down fire in a fireplace or wood stove \ud83d\udd25.mp4",
+      "frame_index": 690,
+      "det_index": 1,
+      "confidence": 0.30597370862960815,
+      "bbox": [
+        3.42724609375,
+        794.450439453125,
+        701.95458984375,
+        1280.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Building the top down fire in a fireplace or wood stove \ud83d\udd25_f00690_0077.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 4470,
+      "det_index": 0,
+      "confidence": 0.3057205080986023,
+      "bbox": [
+        0.761688232421875,
+        288.8822021484375,
+        329.2774963378906,
+        718.959716796875
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f04470_0078.jpg"
+    },
+    {
+      "source_path": "videos\\fire\\Security Camera Video of Fire at WLNE.mp4",
+      "frame_index": 4410,
+      "det_index": 0,
+      "confidence": 0.3056691884994507,
+      "bbox": [
+        2.25836181640625,
+        231.7833251953125,
+        356.92755126953125,
+        720.0
+      ],
+      "crop_path": "analysis_outputs\\knife_media_hard_negatives_fire\\crops\\Security Camera Video of Fire at WLNE_f04410_0079.jpg"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4#45",
+  "per_model": {
+    "fire": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "fire",
+          "class_name": "fire",
+          "confidence": 0.6,
+          "bbox": [
+            168.0,
+            316.0,
+            416.0,
+            564.0
+          ]
+        }
+      ]
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.5490924119949341,
+          "bbox": [
+            697.1786499023438,
+            0.0,
+            1035.505859375,
+            563.5245361328125
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.5304702520370483,
+          "bbox": [
+            360.8821716308594,
+            0.0,
+            686.4845581054688,
+            547.5281372070312
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "fire",
+        "class_name": "fire",
+        "confidence": 0.6,
+        "bbox": [
+          168.0,
+          316.0,
+          416.0,
+          564.0
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.5490924119949341,
+        "bbox": [
+          697.1786499023438,
+          0.0,
+          1035.505859375,
+          563.5245361328125
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.5304702520370483,
+        "bbox": [
+          360.8821716308594,
+          0.0,
+          686.4845581054688,
+          547.5281372070312
+        ]
+      }
+    ]
+  }
+}

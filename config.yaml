@@ -1,0 +1,377 @@
+# Configuration for Visual Anomaly Detection System
+
+# Fire Detection Configuration
+fire_detection:
+  model_name: "yolov8m"  # Medium model - daha yüksek accuracy için
+  img_size: 640          # Yüksek çözünürlük - daha iyi deteksiyon
+  batch_size: 16         # Optimal batch size
+  epochs: 200            # Daha fazla epoch - daha iyi öğrenme
+  confidence_threshold: 0.15   # Daha düşük threshold - daha fazla detection
+  inference_threshold: 0.4     # Inference için optimize
+  iou_threshold: 0.5           # Daha iyi NMS
+
+  # Cascade classifier tuned to suppress false positives harder than the old defaults.
+  cascade:
+    classifier_model: "efficientnet_b0"
+    alpha: 0.35
+    fusion_threshold: 0.58
+    min_classifier_prob: 0.60
+    crop_padding: 0.20
+
+  # Post-filter to suppress uniform yellow/orange objects such as bags or coats.
+  postfilter:
+    enabled: true
+    minimum_box_width: 14
+    minimum_box_height: 14
+    minimum_box_area_ratio: 0.00014
+    small_box_guard:
+      enabled: true
+      max_width: 52
+      max_height: 52
+      max_area_ratio: 0.0012
+      minimum_quality_score: 0.84
+      reject_synthetic: true
+    uniform_warm_object:
+      enabled: true
+      min_yellow_ratio: 0.55
+      max_edge_ratio: 0.09
+      max_hue_std: 16.0
+      classifier_override: 0.85
+    bright_glare_object:
+      enabled: true
+      synthetic_only: true
+      min_white_ratio: 0.42
+      min_bright_ratio: 0.35
+      max_warm_ratio: 0.06
+      max_mean_saturation: 90.0
+      classifier_override: 0.96
+    auxiliary_object_veto:
+      enabled: true
+      target_classes: ["bag", "luggage", "person"]
+      classifier_override: 0.85
+      min_iou: 0.20
+      min_cover: 0.55
+      synthetic_full_cover_veto:
+        enabled: true
+        target_classes: ["bag", "luggage", "person"]
+        min_cover: 0.95
+        center_inside: true
+        require_glare_metrics: false
+        min_white_ratio: 0.08
+        max_warm_ratio: 0.08
+        max_mean_saturation: 135.0
+        classifier_override: 1.10
+
+  # Hybrid system parameters
+  hybrid:
+    use_color_detection: true
+    use_motion_detection: true
+    fire_color_ranges:
+      lower_hsv: [0, 100, 100]
+      upper_hsv: [30, 255, 255]
+    motion_threshold: 25
+
+  # Decision Fusion: Brightness + Motion yardımcı karar mekanizması
+  decision_fusion:
+    enabled: true
+    scale: 0.5                   # Yardimci CV analizini daha yuksek coznurlukte calistir
+    base_threshold: 0.5          # YOLO conf >= bu değer → PASS_THROUGH
+    low_conf_range: [0.15, 0.5]  # Bu aralıkta bright+motion varsa BOOST
+    boost_amount: 0.35           # Confidence'a eklenecek miktar
+    brightness:
+      value_threshold: 210       # V kanalı eşiği (parlak piksel)
+      saturation_threshold: 80   # S kanalı eşiği (doygun renk)
+      hue_range: [0, 60]         # H kanalı: 0-60 (kırmızı-turuncu-sarı)
+      ratio_threshold: 0.02      # Frame'in %2'si parlak → BOOST tetikle
+      hotspot_min_ratio: 0.00015 # Lokal alev cekirdegi icin min oran
+      hotspot_max_ratio: 0.18    # Genis gokyuzu gibi alanlari synthetic disi birak
+      hotspot_max_width_ratio: 0.75
+      hotspot_max_height_ratio: 0.75
+      white_hot_value_threshold: 235
+      white_hot_red_min: 180
+      white_hot_green_min: 120
+      white_hot_rb_diff: 20
+    motion:
+      ratio_threshold: 0.01      # Frame'in %1'i hareketli → BOOST tetikle
+      diff_threshold: 30         # Frame differencing eşiği
+    synthetic_bright_threshold: 0.05  # SYNTHETIC mod: %5 parlak
+    synthetic_motion_threshold: 0.02  # SYNTHETIC mod: %2 hareketli
+    synthetic_smoke_threshold: 0.05   # Hareket yoksa lokal hotspot + duman synthetic icin yeterli
+    synthetic_confidence: 0.6         # Sentetik detection confidence
+    debug: false                 # true yapınca konsola fusion logları yazar
+
+    # Temporal Persistence: Yangın hemen sönmez — YOLO kaçırsa bile devam et
+    temporal_persistence:
+      enabled: true
+      max_frames: 45             # ~1.5s fire memory (30fps'te)
+      decay_rate: 0.96           # Her frame confidence *= 0.96
+      min_confidence: 0.25       # Bu altında persistence durur
+      iou_threshold: 0.2         # Eski fire bbox ile eşleştirme IoU eşiği
+
+    # Smoke Detection: Duman varsa yakında ateş var
+    smoke:
+      enabled: true
+      saturation_max: 60         # S < 60 → duman (gri/beyaz)
+      value_min: 150             # V > 150 → açık renkli
+      ratio_threshold: 0.03      # Frame'in %3'ü duman → tetikle
+      fire_boost: 0.20           # Duman varsa fire confidence'a +0.20
+      persistence_multiplier: 1.5  # Duman varsa persistence süresini 1.5x uzat
+
+  # Dataset paths
+  dataset:
+    root: "data/fire_detection"
+    train: "data/fire_detection/train"
+    val: "data/fire_detection/val"
+    test: "data/fire_detection/test"
+
+  # Training parameters - Optimized for high accuracy
+  training:
+    learning_rate: 0.0005      # Daha düşük LR - stable training
+    optimizer: "AdamW"         # AdamW - better generalization
+    weight_decay: 0.0005
+    scheduler: "cosine"
+    augmentation: true
+    patience: 30               # Early stopping
+
+    # Advanced augmentation settings
+    hsv_h: 0.015               # Hue augmentation
+    hsv_s: 0.7                 # Saturation augmentation
+    hsv_v: 0.4                 # Value augmentation
+    degrees: 10.0              # Rotation
+    translate: 0.1             # Translation
+    scale: 0.5                 # Scale augmentation
+    shear: 0.0                 # Shear
+    perspective: 0.0           # Perspective
+    flipud: 0.0                # Vertical flip
+    fliplr: 0.5                # Horizontal flip (50% chance)
+    mosaic: 1.0                # Mosaic augmentation
+    mixup: 0.15                # Mixup augmentation
+    copy_paste: 0.3            # Copy-paste augmentation
+
+    # Loss weights for better precision/recall balance
+    box: 7.5                   # Box loss weight
+    cls: 0.5                   # Classification loss weight
+    dfl: 1.5                   # Distribution focal loss
+
+    # Additional training parameters
+    warmup_epochs: 5           # Warmup epochs
+    warmup_momentum: 0.8       # Warmup momentum
+    warmup_bias_lr: 0.1        # Warmup bias learning rate
+    close_mosaic: 10           # Close mosaic N epochs before end
+
+# Weapon Detection Configuration (Future)
+weapon_detection:
+  model_name: "yolov8m"
+  img_size: 640
+  batch_size: 16
+  epochs: 100
+  confidence_threshold: 0.6
+
+# Knife classifier-assisted detection
+knife_detection:
+  confidence_threshold: 0.35
+  use_classifier: true
+  require_person_context: true
+  person_expand_ratio: 0.08
+  person_min_overlap_ratio: 0.08
+  person_max_hand_distance_ratio: 0.22
+  hand_band_top_ratio: 0.42
+  hand_band_bottom_ratio: 0.92
+  hand_inner_width_ratio: 0.20
+  hand_outer_width_ratio: 0.20
+  hand_zone_min_cover: 0.18
+  allow_skin_fallback: true
+  skin_expand_ratio: 0.35
+  skin_min_ratio: 0.10
+  classifier_path: "knife_classifier.pt"
+  classifier_model: "efficientnet_b0"
+  classifier_target_class: "knife"
+  classifier_min_probability: 0.75
+  classifier_fusion_threshold: 0.58
+  classifier_alpha: 0.30
+  classifier_crop_padding: 0.10
+
+# Railway Intrusion Detection Configuration (Future)
+railway_detection:
+  model_name: "yolov8m"
+  img_size: 640
+  batch_size: 16
+  epochs: 100
+  confidence_threshold: 0.7
+
+# Abandoned Bag Detection (aligned with imageproje.ipynb)
+bag_abandonment:
+  enabled: true
+  # Model & camera must match imageproje.ipynb
+  model_path: "/Users/goksubakir/Desktop/TEST1/bestSON.pt"
+  camera_index: 0
+
+  # Class names used in the trained model
+  person_class: "person"
+  bag_classes: ["bag", "luggage"]
+
+  # Logic thresholds (must stay in sync with notebook)
+  owner_distance_threshold: 100   # OWNER_DIST_THRES
+  anchor_reset_distance: 40.0     # Canta bu kadar oynarsa yeni anchor ve sahip atamasi
+  warning_seconds: 3.0            # BAG_WARNING_SECONDS
+  alert_seconds: 7.0              # BAG_ALERT_SECONDS
+  state_match_iou_threshold: 0.2  # Track ID degisse bile benzer canta durumunu koru
+
+  # Tracking / cleanup
+  track_lost_timeout: 0.7         # TRACK_LOST_TIMEOUT (seconds)
+  det_vis_timeout: 2.0            # DET_VIS_TIMEOUT (seconds)
+  detect_every_n_frames: 5        # DETECT_EVERY_N_FRAMES
+  max_missed_frames: 2
+
+# Unified bestSON bag/person/luggage detector tuning
+bag_detection:
+  confidence_threshold: 0.45
+  tracker_min_hits: 1
+  tracker_max_age: 8
+  use_classifier: true
+  classifier_path: "bag_classifier.pt"
+  classifier_model: "efficientnet_b0"
+  allowed_classes: ["bag", "luggage", "person"]
+  classifier_min_probability: 0.60
+  classifier_fusion_threshold: 0.45
+  classifier_alpha: 0.35
+  classifier_crop_padding: 0.10
+  bag_confidence_threshold: 0.45
+  person_confidence_threshold: 0.45
+  min_width: 1
+  min_height: 1
+  min_area_ratio: 0.0
+  max_area_ratio: 1.0
+  min_aspect_ratio: 0.05
+  max_aspect_ratio: 20.0
+  edge_margin_ratio: 0.0
+  edge_confidence_threshold: 0.45
+  hide_tentative_tracks: false
+
+# Tracking Configuration
+tracking:
+  max_age: 5          # Frames to keep a track alive without detection
+  min_hits: 1         # Minimum detections before showing a track
+  # ByteTrack params (also in tracker.yaml)
+  track_high_thresh: 0.3
+  track_low_thresh: 0.1
+  new_track_thresh: 0.4
+  track_buffer: 30
+  match_thresh: 0.8
+
+# General Settings
+general:
+  device: "cuda"  # cuda or cpu
+  workers: 4
+  seed: 42
+  save_dir: "results"
+  log_dir: "logs"
+
+# Alert System
+alerts:
+  fire_alert_threshold: 0.35  # Bu confidence ustunde alarm ver
+  weapon_alert_threshold: 0.75
+  bag_alert_threshold: 0.5
+  railway_alert_threshold: 0.8
+  alert_cooldown: 3  # Ayni ates icin tekrar alarm vermeden once bekle (saniye)
+
+# Live stream stabilization / false-positive suppression
+stream_validation:
+  enabled: true
+  history_size: 12
+  motion_diff_threshold: 18
+  global_motion_threshold: 0.18
+  max_missed_frames: 2
+  models:
+    fire:
+      min_seen_frames: 4
+      min_duration: 0.45
+      min_avg_confidence: 0.40
+      min_area_ratio: 0.00025
+      min_width: 16
+      min_height: 16
+      min_motion_ratio: 0.03
+      min_motion_frames: 3
+      alarm_min_motion_frames: 4
+      local_motion_vs_global: 0.55
+    knife:
+      min_seen_frames: 5
+      min_duration: 0.50
+      min_avg_confidence: 0.55
+      min_area_ratio: 0.00008
+      min_width: 14
+      min_height: 14
+      alarm_min_seen_frames: 6
+    bag:
+      min_seen_frames: 3
+      min_duration: 0.30
+      min_avg_confidence: 0.42
+      min_area_ratio: 0.00025
+      min_width: 18
+      min_height: 18
+      alarm_min_seen_frames: 3
+    luggage:
+      min_seen_frames: 3
+      min_duration: 0.30
+      min_avg_confidence: 0.42
+      min_area_ratio: 0.00030
+      min_width: 20
+      min_height: 20
+      alarm_min_seen_frames: 3
+    person:
+      min_seen_frames: 2
+      min_duration: 0.15
+      min_avg_confidence: 0.30
+      min_area_ratio: 0.0005
+      min_width: 18
+      min_height: 24
+      alarm_min_seen_frames: 2
+    train:
+      min_seen_frames: 3
+      min_duration: 0.30
+      min_avg_confidence: 0.45
+      min_area_ratio: 0.0010
+      min_width: 30
+      min_height: 24
+      alarm_min_seen_frames: 3
+
+# Desktop live camera runtime tuning
+camera_runtime:
+  camera_index: 0
+  backend: "dshow"
+  detect_every_n_frames: 2
+  inference_max_width: 960
+  jpeg_quality: 72
+  fire_postfilter:
+    reject_synthetic: true
+    minimum_fire_quality_score: 0.70
+    minimum_box_width: 18
+    minimum_box_height: 18
+    minimum_box_area_ratio: 0.00018
+    small_box_guard:
+      enabled: true
+      max_width: 56
+      max_height: 56
+      max_area_ratio: 0.0014
+      minimum_quality_score: 0.88
+      reject_synthetic: true
+    bright_glare_object:
+      enabled: true
+      synthetic_only: true
+      min_white_ratio: 0.40
+      min_bright_ratio: 0.34
+      max_warm_ratio: 0.07
+      max_mean_saturation: 95.0
+      classifier_override: 0.98
+    auxiliary_object_veto:
+      enabled: false
+      synthetic_full_cover_veto:
+        enabled: true
+        target_classes: ["bag", "luggage", "person"]
+        min_cover: 0.95
+        center_inside: true
+        require_glare_metrics: false
+        min_white_ratio: 0.08
+        max_warm_ratio: 0.08
+        max_mean_saturation: 135.0
+        classifier_override: 1.10

@@ -1,0 +1,49 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-man-with-backpack-walking-on-a-forest-path-17954-hd-ready.mp4#270",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.8295372724533081,
+          "bbox": [
+            21.81087303161621,
+            0.0,
+            1280.0,
+            720.0
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 1,
+    "detections": [
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.8295372724533081,
+        "bbox": [
+          21.81087303161621,
+          0.0,
+          1280.0,
+          720.0
+        ]
+      }
+    ]
+  }
+}

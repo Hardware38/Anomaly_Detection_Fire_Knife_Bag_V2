@@ -1,0 +1,49 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-rolling-corridor-at-an-airport-4642-hd-ready.mp4#270",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.7484995126724243,
+          "bbox": [
+            83.56056213378906,
+            40.62541961669922,
+            275.78094482421875,
+            321.43304443359375
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 1,
+    "detections": [
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.7484995126724243,
+        "bbox": [
+          83.56056213378906,
+          40.62541961669922,
+          275.78094482421875,
+          321.43304443359375
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dataset_root": "datasets\\fire-dataset\\dataset",
+  "class_names": [
+    "fire"
+  ],
+  "classifier": {
+    "enabled": true,
+    "path": "fire_classifier.pt",
+    "threshold": 0.5
+  },
+  "splits": {
+    "train": {
+      "image_count": 5884,
+      "labeled_image_count": 2928,
+      "box_count": 5093,
+      "class_counts": {
+        "fire": 5093
+      },
+      "bbox_width_mean": 0.17079201845670527,
+      "bbox_height_mean": 0.23480359071274298,
+      "bbox_area_mean": 0.05881531636559985,
+      "classifier_probability_mean": 0.8893417623445381,
+      "classifier_probability_max": 0.9999403953552246,
+      "classifier_pass_rate": 0.9379540545847241
+    },
+    "val": {
+      "image_count": 1223,
+      "labeled_image_count": 507,
+      "box_count": 815,
+      "class_counts": {
+        "fire": 815
+      },
+      "bbox_width_mean": 0.19708013803680982,
+      "bbox_height_mean": 0.2853067484662577,
+      "bbox_area_mean": 0.07476394746932516,
+      "classifier_probability_mean": 0.8809888499317565,
+      "classifier_probability_max": 0.9998069405555725,
+      "classifier_pass_rate": 0.9411042944785276
+    },
+    "test": {
+      "image_count": 500,
+      "labeled_image_count": 200,
+      "box_count": 324,
+      "class_counts": {
+        "fire": 324
+      },
+      "bbox_width_mean": 0.163744212962963,
+      "bbox_height_mean": 0.20712287808641974,
+      "bbox_area_mean": 0.05325018235194829,
+      "classifier_probability_mean": 0.8574977429241609,
+      "classifier_probability_max": 0.999906063079834,
+      "classifier_pass_rate": 0.9074074074074074
+    }
+  }
+}

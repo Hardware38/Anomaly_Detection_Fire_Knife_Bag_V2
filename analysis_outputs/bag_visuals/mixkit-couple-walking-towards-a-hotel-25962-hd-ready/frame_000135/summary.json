@@ -1,0 +1,93 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4#135",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 3,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.6089966297149658,
+          "bbox": [
+            674.9595947265625,
+            0.0,
+            1028.0771484375,
+            616.9454345703125
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.5149219632148743,
+          "bbox": [
+            348.96649169921875,
+            0.0,
+            678.5016479492188,
+            573.5259399414062
+          ]
+        },
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.4631129801273346,
+          "bbox": [
+            129.9952850341797,
+            295.1336364746094,
+            439.47161865234375,
+            609.1625366210938
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.6089966297149658,
+        "bbox": [
+          674.9595947265625,
+          0.0,
+          1028.0771484375,
+          616.9454345703125
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.5149219632148743,
+        "bbox": [
+          348.96649169921875,
+          0.0,
+          678.5016479492188,
+          573.5259399414062
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.4631129801273346,
+        "bbox": [
+          129.9952850341797,
+          295.1336364746094,
+          439.47161865234375,
+          609.1625366210938
+        ]
+      }
+    ]
+  }
+}

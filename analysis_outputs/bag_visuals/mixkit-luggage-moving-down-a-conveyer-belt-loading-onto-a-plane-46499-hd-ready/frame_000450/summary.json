@@ -1,0 +1,94 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-luggage-moving-down-a-conveyer-belt-loading-onto-a-plane-46499-hd-ready.mp4#450",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6592024564743042,
+          "bbox": [
+            2.128692626953125,
+            0.0,
+            296.7525634765625,
+            720.0
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.6466766595840454,
+          "bbox": [
+            603.6635131835938,
+            0.0,
+            861.621337890625,
+            221.91183471679688
+          ]
+        },
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.4575028717517853,
+          "bbox": [
+            1132.733642578125,
+            370.3833923339844,
+            1280.0,
+            453.5157165527344
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6592024564743042,
+        "bbox": [
+          2.128692626953125,
+          0.0,
+          296.7525634765625,
+          720.0
+        ]
+      },
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.6466766595840454,
+        "bbox": [
+          603.6635131835938,
+          0.0,
+          861.621337890625,
+          221.91183471679688
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.4575028717517853,
+        "bbox": [
+          1132.733642578125,
+          370.3833923339844,
+          1280.0,
+          453.5157165527344
+        ]
+      }
+    ]
+  }
+}

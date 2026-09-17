@@ -1,0 +1,117 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4#135",
+  "per_model": {
+    "fire": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "fire",
+          "class_name": "fire",
+          "confidence": 0.6,
+          "bbox": [
+            200.0,
+            24.0,
+            302.0,
+            188.0
+          ]
+        }
+      ]
+    },
+    "knife": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.564785897731781,
+          "bbox": [
+            698.687744140625,
+            399.1591796875,
+            1277.650634765625,
+            720.0
+          ]
+        },
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.34313300251960754,
+          "bbox": [
+            395.01287841796875,
+            96.7176513671875,
+            492.02374267578125,
+            223.99807739257812
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.592621386051178,
+          "bbox": [
+            555.059326171875,
+            96.027099609375,
+            736.0592651367188,
+            620.38818359375
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 4,
+    "detections": [
+      {
+        "model": "fire",
+        "class_name": "fire",
+        "confidence": 0.6,
+        "bbox": [
+          200.0,
+          24.0,
+          302.0,
+          188.0
+        ]
+      },
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.564785897731781,
+        "bbox": [
+          698.687744140625,
+          399.1591796875,
+          1277.650634765625,
+          720.0
+        ]
+      },
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.34313300251960754,
+        "bbox": [
+          395.01287841796875,
+          96.7176513671875,
+          492.02374267578125,
+          223.99807739257812
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.592621386051178,
+        "bbox": [
+          555.059326171875,
+          96.027099609375,
+          736.0592651367188,
+          620.38818359375
+        ]
+      }
+    ]
+  }
+}

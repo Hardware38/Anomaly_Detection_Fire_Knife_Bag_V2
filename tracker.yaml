@@ -1,0 +1,12 @@
+# ByteTrack configuration for Ultralytics model.track()
+# Tuned for fire/knife/bag detection with persistent tracking
+
+tracker_type: bytetrack
+
+# ByteTrack parameters
+track_high_thresh: 0.3    # Threshold for first association (lower = track more objects)
+track_low_thresh: 0.1     # Threshold for second association (catches missed detections)
+new_track_thresh: 0.4     # Threshold for creating new tracks (prevents false positives)
+track_buffer: 30          # Frames to keep lost tracks alive (grace period)
+match_thresh: 0.8         # IoU matching threshold
+fuse_score: true          # Fuse detection score with IoU for matching (stabilizes weak detections)

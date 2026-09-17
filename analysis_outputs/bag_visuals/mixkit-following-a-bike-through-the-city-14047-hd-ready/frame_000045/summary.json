@@ -1,0 +1,72 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4#45",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6236226558685303,
+          "bbox": [
+            0.0,
+            159.3084716796875,
+            826.0338134765625,
+            716.268798828125
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.4674554765224457,
+          "bbox": [
+            566.6046752929688,
+            65.4162826538086,
+            771.4279174804688,
+            668.7201538085938
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 2,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6236226558685303,
+        "bbox": [
+          0.0,
+          159.3084716796875,
+          826.0338134765625,
+          716.268798828125
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.4674554765224457,
+        "bbox": [
+          566.6046752929688,
+          65.4162826538086,
+          771.4279174804688,
+          668.7201538085938
+        ]
+      }
+    ]
+  }
+}

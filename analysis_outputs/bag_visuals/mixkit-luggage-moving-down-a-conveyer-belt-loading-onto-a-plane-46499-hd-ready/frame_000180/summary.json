@@ -1,0 +1,72 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-luggage-moving-down-a-conveyer-belt-loading-onto-a-plane-46499-hd-ready.mp4#180",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6944218873977661,
+          "bbox": [
+            0.0,
+            166.29779052734375,
+            274.385009765625,
+            720.0
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.7906534671783447,
+          "bbox": [
+            560.9678955078125,
+            223.7510223388672,
+            879.5111694335938,
+            584.9693603515625
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 2,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6944218873977661,
+        "bbox": [
+          0.0,
+          166.29779052734375,
+          274.385009765625,
+          720.0
+        ]
+      },
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.7906534671783447,
+        "bbox": [
+          560.9678955078125,
+          223.7510223388672,
+          879.5111694335938,
+          584.9693603515625
+        ]
+      }
+    ]
+  }
+}

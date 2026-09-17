@@ -1,0 +1,49 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-woman-walking-with-her-luggage-11624-hd-ready.mp4#90",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.8854421377182007,
+          "bbox": [
+            479.2138671875,
+            329.05596923828125,
+            742.1658935546875,
+            632.8212890625
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 1,
+    "detections": [
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.8854421377182007,
+        "bbox": [
+          479.2138671875,
+          329.05596923828125,
+          742.1658935546875,
+          632.8212890625
+        ]
+      }
+    ]
+  }
+}

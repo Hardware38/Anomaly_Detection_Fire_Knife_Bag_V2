@@ -1,0 +1,49 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-tourist-from-behind-appreciating-the-view-on-a-chroma-key-28297-hd-ready.mp4#225",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.7429256439208984,
+          "bbox": [
+            459.9978942871094,
+            286.269287109375,
+            765.54736328125,
+            694.3429565429688
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 1,
+    "detections": [
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.7429256439208984,
+        "bbox": [
+          459.9978942871094,
+          286.269287109375,
+          765.54736328125,
+          694.3429565429688
+        ]
+      }
+    ]
+  }
+}

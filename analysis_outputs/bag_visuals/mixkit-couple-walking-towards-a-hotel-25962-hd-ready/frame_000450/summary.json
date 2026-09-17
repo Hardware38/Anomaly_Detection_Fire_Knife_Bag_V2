@@ -1,0 +1,116 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4#450",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6236305832862854,
+          "bbox": [
+            283.7347412109375,
+            74.01678466796875,
+            336.1324462890625,
+            153.7286376953125
+          ]
+        },
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.5407983660697937,
+          "bbox": [
+            336.92681884765625,
+            113.39028930664062,
+            421.02203369140625,
+            172.34140014648438
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.6010876297950745,
+          "bbox": [
+            382.17694091796875,
+            0.0,
+            692.1800537109375,
+            569.6156005859375
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.45605960488319397,
+          "bbox": [
+            725.1605224609375,
+            0.0,
+            1048.228515625,
+            601.934814453125
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 4,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6236305832862854,
+        "bbox": [
+          283.7347412109375,
+          74.01678466796875,
+          336.1324462890625,
+          153.7286376953125
+        ]
+      },
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.5407983660697937,
+        "bbox": [
+          336.92681884765625,
+          113.39028930664062,
+          421.02203369140625,
+          172.34140014648438
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.6010876297950745,
+        "bbox": [
+          382.17694091796875,
+          0.0,
+          692.1800537109375,
+          569.6156005859375
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.45605960488319397,
+        "bbox": [
+          725.1605224609375,
+          0.0,
+          1048.228515625,
+          601.934814453125
+        ]
+      }
+    ]
+  }
+}

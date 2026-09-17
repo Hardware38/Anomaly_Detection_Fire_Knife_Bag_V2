@@ -1,0 +1,94 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-following-a-bike-through-the-city-14047-hd-ready.mp4#495",
+  "per_model": {
+    "fire": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "fire",
+          "class_name": "fire",
+          "confidence": 0.6,
+          "bbox": [
+            1074.0,
+            56.0,
+            1142.0,
+            176.0
+          ]
+        }
+      ]
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.5863076448440552,
+          "bbox": [
+            644.619384765625,
+            94.97026062011719,
+            806.8258056640625,
+            339.55584716796875
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.5529426336288452,
+          "bbox": [
+            652.6158447265625,
+            84.15206146240234,
+            896.1698608398438,
+            540.30224609375
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "fire",
+        "class_name": "fire",
+        "confidence": 0.6,
+        "bbox": [
+          1074.0,
+          56.0,
+          1142.0,
+          176.0
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.5863076448440552,
+        "bbox": [
+          644.619384765625,
+          94.97026062011719,
+          806.8258056640625,
+          339.55584716796875
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.5529426336288452,
+        "bbox": [
+          652.6158447265625,
+          84.15206146240234,
+          896.1698608398438,
+          540.30224609375
+        ]
+      }
+    ]
+  }
+}

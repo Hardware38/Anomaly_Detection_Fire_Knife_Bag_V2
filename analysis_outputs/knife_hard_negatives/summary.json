@@ -1,0 +1,1811 @@
+{
+  "summary": {
+    "dataset": "knife_classifier_data",
+    "split": "train",
+    "images_scanned": 1538,
+    "hard_negative_candidates": 150,
+    "threshold": 0.25
+  },
+  "candidates": [
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_656_jpg.rf.6d757639cf1f6e46de2e5ff414ec209a.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_656_jpg.rf.6d757639cf1f6e46de2e5ff414ec209a_det_000.jpg",
+      "confidence": 0.9438732266426086,
+      "bbox": [
+        311.03369140625,
+        229.6295166015625,
+        471.822509765625,
+        358.48895263671875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_608_jpg.rf.20f13967c6aae2bf018c22290b83adf7.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_608_jpg.rf.20f13967c6aae2bf018c22290b83adf7_det_000.jpg",
+      "confidence": 0.9400005340576172,
+      "bbox": [
+        316.6397399902344,
+        236.85726928710938,
+        478.9061584472656,
+        358.7306213378906
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_608_jpg.rf.eb4a9781cd5b2f50fddd24a6fbcde1b9.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_608_jpg.rf.eb4a9781cd5b2f50fddd24a6fbcde1b9_det_000.jpg",
+      "confidence": 0.9362395405769348,
+      "bbox": [
+        323.5854797363281,
+        236.19932556152344,
+        479.5033264160156,
+        367.29541015625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0216_jpg.rf.9557cf760f684fc4d0f6f5d72f0af8ad.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0216_jpg.rf.9557cf760f684fc4d0f6f5d72f0af8ad_det_000.jpg",
+      "confidence": 0.9340903759002686,
+      "bbox": [
+        414.33343505859375,
+        382.8556213378906,
+        496.1952209472656,
+        473.43756103515625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaKnifeDefenseTechniques201_jpg.rf.d401d62b4eb8ab1c08bcb609b5beebfe.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaKnifeDefenseTechniques201_jpg.rf.d401d62b4eb8ab1c08bcb609b5beebfe_det_000.jpg",
+      "confidence": 0.9327024221420288,
+      "bbox": [
+        248.35427856445312,
+        244.53765869140625,
+        338.1288757324219,
+        340.84027099609375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_461_jpg.rf.2a5671f466998e2e0dc8b14689e5f327.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_461_jpg.rf.2a5671f466998e2e0dc8b14689e5f327_det_000.jpg",
+      "confidence": 0.9284482598304749,
+      "bbox": [
+        322.67352294921875,
+        279.7596435546875,
+        613.31103515625,
+        606.6788330078125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-1222-_jpg.rf.cfb952662851897aeb9cc2acbf794bd2.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-1222-_jpg.rf.cfb952662851897aeb9cc2acbf794bd2_det_000.jpg",
+      "confidence": 0.9274863004684448,
+      "bbox": [
+        309.1484680175781,
+        227.42413330078125,
+        465.1352844238281,
+        359.95257568359375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_606_jpg.rf.3c865d2670810e90a21bab63d14225cd.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_606_jpg.rf.3c865d2670810e90a21bab63d14225cd_det_000.jpg",
+      "confidence": 0.9222314357757568,
+      "bbox": [
+        171.98828125,
+        219.74948120117188,
+        315.6860656738281,
+        375.7185974121094
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_301_jpg.rf.4bb46fd9c2583ff0d68052e8dd2dc30d.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_301_jpg.rf.4bb46fd9c2583ff0d68052e8dd2dc30d_det_000.jpg",
+      "confidence": 0.9215890765190125,
+      "bbox": [
+        299.01141357421875,
+        277.99395751953125,
+        559.25146484375,
+        640.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_322_jpg.rf.f0930d83d414cdade159d5474ff328c2.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_322_jpg.rf.f0930d83d414cdade159d5474ff328c2_det_000.jpg",
+      "confidence": 0.9203318953514099,
+      "bbox": [
+        336.87579345703125,
+        344.7015380859375,
+        640.0,
+        587.2683715820312
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_461_jpg.rf.49e194ec44c07ff9ccb0450013a8adab.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_461_jpg.rf.49e194ec44c07ff9ccb0450013a8adab_det_000.jpg",
+      "confidence": 0.9176809787750244,
+      "bbox": [
+        313.5384826660156,
+        245.20236206054688,
+        594.5867919921875,
+        588.4017944335938
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0500_jpg.rf.0e109c21045a5af3208f99f5b4586a90.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0500_jpg.rf.0e109c21045a5af3208f99f5b4586a90_det_000.jpg",
+      "confidence": 0.9165310263633728,
+      "bbox": [
+        411.4315185546875,
+        402.78790283203125,
+        496.7891845703125,
+        516.0740966796875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1040_jpg.rf.b80b6b4905405869fd9ed5fc7c939e9b.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1040_jpg.rf.b80b6b4905405869fd9ed5fc7c939e9b_det_000.jpg",
+      "confidence": 0.9156327843666077,
+      "bbox": [
+        75.35186767578125,
+        436.9404296875,
+        229.83697509765625,
+        603.843017578125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_606_jpg.rf.d0af995986de75ca7b45fb4408feaaea.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_606_jpg.rf.d0af995986de75ca7b45fb4408feaaea_det_000.jpg",
+      "confidence": 0.9147948026657104,
+      "bbox": [
+        308.7882080078125,
+        226.73353576660156,
+        464.676513671875,
+        360.444091796875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_608_jpg.rf.0c21685d748740fe296313fed2342308.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_608_jpg.rf.0c21685d748740fe296313fed2342308_det_000.jpg",
+      "confidence": 0.9147701859474182,
+      "bbox": [
+        314.2102355957031,
+        199.0971221923828,
+        466.7967529296875,
+        356.16925048828125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-1222-_jpg.rf.96a2f8082dd2488c93c13a53a828b55b.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-1222-_jpg.rf.96a2f8082dd2488c93c13a53a828b55b_det_000.jpg",
+      "confidence": 0.9147434234619141,
+      "bbox": [
+        316.05145263671875,
+        227.32887268066406,
+        465.72625732421875,
+        373.6883544921875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0216_jpg.rf.a62ce8174126bccdc40bac75b3852afd.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0216_jpg.rf.a62ce8174126bccdc40bac75b3852afd_det_000.jpg",
+      "confidence": 0.914686381816864,
+      "bbox": [
+        109.98414611816406,
+        374.0297546386719,
+        187.62657165527344,
+        470.4361877441406
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-1222-_jpg.rf.fd0068347f436ff26150578b1718d72a.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-1222-_jpg.rf.fd0068347f436ff26150578b1718d72a_det_000.jpg",
+      "confidence": 0.9146208763122559,
+      "bbox": [
+        287.3771667480469,
+        206.21151733398438,
+        445.3189697265625,
+        342.35015869140625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_608_jpg.rf.e099c3d4232c9268ba7b1352832e756a.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_608_jpg.rf.e099c3d4232c9268ba7b1352832e756a_det_000.jpg",
+      "confidence": 0.9126067161560059,
+      "bbox": [
+        111.42669677734375,
+        179.97869873046875,
+        254.44912719726562,
+        326.8955383300781
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\RusoClases404_jpg.rf.2cdd416e3a25bcbfa6fb06de59d47cf5.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\RusoClases404_jpg.rf.2cdd416e3a25bcbfa6fb06de59d47cf5_det_000.jpg",
+      "confidence": 0.9122070670127869,
+      "bbox": [
+        341.6394348144531,
+        358.0176086425781,
+        410.02227783203125,
+        422.98272705078125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaKnifeDefenseTechniques262_jpg.rf.52a27a741117d3f9e0d01b97d5fc35ff.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaKnifeDefenseTechniques262_jpg.rf.52a27a741117d3f9e0d01b97d5fc35ff_det_000.jpg",
+      "confidence": 0.9121662974357605,
+      "bbox": [
+        352.3145751953125,
+        128.80755615234375,
+        453.2242431640625,
+        208.55810546875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\IDFT9M5NEC2I_jpg.rf.0bb5d5169525a671320e6b4a7b55f011.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\IDFT9M5NEC2I_jpg.rf.0bb5d5169525a671320e6b4a7b55f011_det_000.jpg",
+      "confidence": 0.9106490612030029,
+      "bbox": [
+        193.0706329345703,
+        146.71844482421875,
+        607.4475708007812,
+        640.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaTraining20583_jpg.rf.a695176095fa4b5d70964f1ef3541937.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaTraining20583_jpg.rf.a695176095fa4b5d70964f1ef3541937_det_000.jpg",
+      "confidence": 0.9100406169891357,
+      "bbox": [
+        345.8172912597656,
+        426.0516662597656,
+        419.9464416503906,
+        484.5779113769531
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_458_jpg.rf.34ba1212d6c800b64a7250be3a6c7f6c.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_458_jpg.rf.34ba1212d6c800b64a7250be3a6c7f6c_det_000.jpg",
+      "confidence": 0.9095186591148376,
+      "bbox": [
+        98.89859771728516,
+        1.274795413017273,
+        559.474853515625,
+        558.3399658203125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_322_jpg.rf.20b2400b78e6de1d22ee133ce772a3df.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_322_jpg.rf.20b2400b78e6de1d22ee133ce772a3df_det_000.jpg",
+      "confidence": 0.9085026979446411,
+      "bbox": [
+        9.203887939453125,
+        26.28093719482422,
+        292.7127380371094,
+        275.0250244140625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0475_jpg.rf.498b2e74b1d5a76decf837e3327cf6d4.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0475_jpg.rf.498b2e74b1d5a76decf837e3327cf6d4_det_000.jpg",
+      "confidence": 0.908097505569458,
+      "bbox": [
+        224.0064239501953,
+        421.701904296875,
+        300.66986083984375,
+        567.74609375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0500_jpg.rf.11994f6d550b408504ccdbd859527aa8.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0500_jpg.rf.11994f6d550b408504ccdbd859527aa8_det_000.jpg",
+      "confidence": 0.907335102558136,
+      "bbox": [
+        124.90180969238281,
+        395.15179443359375,
+        219.6779327392578,
+        503.56085205078125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaKnifeDefenseTechniques201_jpg.rf.93d08fb9a678b32f5d48fe6b91ccba54.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaKnifeDefenseTechniques201_jpg.rf.93d08fb9a678b32f5d48fe6b91ccba54_det_000.jpg",
+      "confidence": 0.9070526361465454,
+      "bbox": [
+        279.07012939453125,
+        236.53260803222656,
+        368.4844055175781,
+        327.1770324707031
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1062_jpg.rf.74584018cc60b78acb4e72ae3ce0a62c.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1062_jpg.rf.74584018cc60b78acb4e72ae3ce0a62c_det_000.jpg",
+      "confidence": 0.906822144985199,
+      "bbox": [
+        284.47381591796875,
+        128.35751342773438,
+        348.3321533203125,
+        210.3463134765625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0500_jpg.rf.e09b7ed51e9065f03fe9dd0d43458bc4.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0500_jpg.rf.e09b7ed51e9065f03fe9dd0d43458bc4_det_000.jpg",
+      "confidence": 0.9046220183372498,
+      "bbox": [
+        112.81346130371094,
+        384.8865966796875,
+        212.84715270996094,
+        485.025146484375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DSC_00241_JPG_jpg.rf.f652ceac52d577035184d3f074178370.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DSC_00241_JPG_jpg.rf.f652ceac52d577035184d3f074178370_det_000.jpg",
+      "confidence": 0.9044060707092285,
+      "bbox": [
+        290.61370849609375,
+        293.12713623046875,
+        355.3184814453125,
+        356.93292236328125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-675-_jpg.rf.afc55d164d61632ab9828e0242722575.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-675-_jpg.rf.afc55d164d61632ab9828e0242722575_det_000.jpg",
+      "confidence": 0.9043506979942322,
+      "bbox": [
+        45.64342498779297,
+        438.3570556640625,
+        126.08802032470703,
+        552.6040649414062
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-653-_jpg.rf.d58a157e7e7a7fa3fb295ffeccc34da1.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-653-_jpg.rf.d58a157e7e7a7fa3fb295ffeccc34da1_det_000.jpg",
+      "confidence": 0.9041785001754761,
+      "bbox": [
+        127.52005767822266,
+        393.57916259765625,
+        205.50216674804688,
+        492.46026611328125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseAndSurvive14_jpg.rf.7bf9476c88796edca2788a8e1f9d40c0.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseAndSurvive14_jpg.rf.7bf9476c88796edca2788a8e1f9d40c0_det_000.jpg",
+      "confidence": 0.9037445187568665,
+      "bbox": [
+        199.9210968017578,
+        424.78741455078125,
+        288.92156982421875,
+        626.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_656_jpg.rf.3257d957df6fe305406b76e19affd635.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_656_jpg.rf.3257d957df6fe305406b76e19affd635_det_000.jpg",
+      "confidence": 0.9032159447669983,
+      "bbox": [
+        172.62484741210938,
+        230.49111938476562,
+        331.7382507324219,
+        353.0506286621094
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_458_jpg.rf.3fad6bd7ba86198835224c9fdc2dfd43.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_458_jpg.rf.3fad6bd7ba86198835224c9fdc2dfd43_det_000.jpg",
+      "confidence": 0.9027271866798401,
+      "bbox": [
+        243.45855712890625,
+        281.9701232910156,
+        545.3056030273438,
+        554.4348754882812
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_444_jpg.rf.238d2dce538837fe245cd42e5c552de2.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_444_jpg.rf.238d2dce538837fe245cd42e5c552de2_det_000.jpg",
+      "confidence": 0.9026048183441162,
+      "bbox": [
+        406.746337890625,
+        282.399169921875,
+        638.0968017578125,
+        615.6735229492188
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1295_jpg.rf.cd03075acb9d07840fbd7baa493c94c6.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1295_jpg.rf.cd03075acb9d07840fbd7baa493c94c6_det_000.jpg",
+      "confidence": 0.9015495181083679,
+      "bbox": [
+        280.7986755371094,
+        175.0243682861328,
+        353.9124755859375,
+        288.08856201171875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-673-_jpg.rf.9c160ec2ff7ea23d1ec8eb844d2f1e55.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-673-_jpg.rf.9c160ec2ff7ea23d1ec8eb844d2f1e55_det_000.jpg",
+      "confidence": 0.9010542631149292,
+      "bbox": [
+        227.40505981445312,
+        540.81787109375,
+        310.4159240722656,
+        632.406005859375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_323_jpg.rf.45f81e530a291438b7bfa7e7aba14bc3.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_323_jpg.rf.45f81e530a291438b7bfa7e7aba14bc3_det_000.jpg",
+      "confidence": 0.9004104137420654,
+      "bbox": [
+        9.838226318359375,
+        293.9288330078125,
+        344.08612060546875,
+        627.076904296875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_301_jpg.rf.a88eb82507e6136e406f326c38e96d25.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_301_jpg.rf.a88eb82507e6136e406f326c38e96d25_det_000.jpg",
+      "confidence": 0.9003685116767883,
+      "bbox": [
+        299.748291015625,
+        272.8441162109375,
+        631.7717895507812,
+        578.831298828125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0335_jpg.rf.c0d04aee9228fa607e465a9dde4d9d73.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0335_jpg.rf.c0d04aee9228fa607e465a9dde4d9d73_det_000.jpg",
+      "confidence": 0.9001544713973999,
+      "bbox": [
+        333.70001220703125,
+        490.392333984375,
+        423.7309265136719,
+        536.6179809570312
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_461_jpg.rf.b53055c5487b59db4cf9abd9d19c0701.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_461_jpg.rf.b53055c5487b59db4cf9abd9d19c0701_det_000.jpg",
+      "confidence": 0.9000694155693054,
+      "bbox": [
+        38.83416748046875,
+        281.3675537109375,
+        313.13153076171875,
+        614.6856689453125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0809_jpg.rf.461d746140ab2cd25d3325685824d020.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0809_jpg.rf.461d746140ab2cd25d3325685824d020_det_000.jpg",
+      "confidence": 0.8988122940063477,
+      "bbox": [
+        431.5839538574219,
+        466.959716796875,
+        523.3139038085938,
+        513.8358154296875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-653-_jpg.rf.29713a8f336a3d0890349c707f0d12eb.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-653-_jpg.rf.29713a8f336a3d0890349c707f0d12eb_det_000.jpg",
+      "confidence": 0.8979504108428955,
+      "bbox": [
+        110.87577819824219,
+        357.8667297363281,
+        178.2734832763672,
+        466.8763732910156
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0362_jpg.rf.8487af21dc1c5d6e3645899c23a276d4.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0362_jpg.rf.8487af21dc1c5d6e3645899c23a276d4_det_000.jpg",
+      "confidence": 0.8979398608207703,
+      "bbox": [
+        131.88656616210938,
+        344.7370910644531,
+        206.76434326171875,
+        390.5199279785156
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_295_jpg.rf.9e9e70e957a3a4ff5b94fc3af9dc8c6a.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_295_jpg.rf.9e9e70e957a3a4ff5b94fc3af9dc8c6a_det_000.jpg",
+      "confidence": 0.8979241847991943,
+      "bbox": [
+        271.6409912109375,
+        73.917236328125,
+        540.3057861328125,
+        402.336181640625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DSC_00241_JPG_jpg.rf.6ca074b825ba9dfb30ace425d9eb94f1.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DSC_00241_JPG_jpg.rf.6ca074b825ba9dfb30ace425d9eb94f1_det_000.jpg",
+      "confidence": 0.897671639919281,
+      "bbox": [
+        289.39581298828125,
+        297.97979736328125,
+        355.51507568359375,
+        355.03570556640625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_375_jpg.rf.53fa4141cd18e6bc0baf3701aa322235.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_375_jpg.rf.53fa4141cd18e6bc0baf3701aa322235_det_000.jpg",
+      "confidence": 0.8976072072982788,
+      "bbox": [
+        26.498077392578125,
+        341.6116943359375,
+        310.1392822265625,
+        631.8554077148438
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaKnifeDefenseTechniques201_jpg.rf.a3a185aaa8bba407214e6e26e32eeebf.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaKnifeDefenseTechniques201_jpg.rf.a3a185aaa8bba407214e6e26e32eeebf_det_000.jpg",
+      "confidence": 0.8974505662918091,
+      "bbox": [
+        282.17578125,
+        216.15267944335938,
+        386.7486572265625,
+        295.12176513671875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1062_jpg.rf.4d7c1d9d47c8d01e110af9dda1770ce0.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1062_jpg.rf.4d7c1d9d47c8d01e110af9dda1770ce0_det_000.jpg",
+      "confidence": 0.8970206379890442,
+      "bbox": [
+        317.027099609375,
+        142.48712158203125,
+        380.2298583984375,
+        222.75592041015625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaKnifeDefenseTechniques201_jpg.rf.c08d010d2677aa67f0a76dcdacad1d6e.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaKnifeDefenseTechniques201_jpg.rf.c08d010d2677aa67f0a76dcdacad1d6e_det_000.jpg",
+      "confidence": 0.8967264890670776,
+      "bbox": [
+        302.52020263671875,
+        246.17694091796875,
+        390.96539306640625,
+        340.98834228515625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-675-_jpg.rf.479ed323d1cb9a3363326909664e586d.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-675-_jpg.rf.479ed323d1cb9a3363326909664e586d_det_000.jpg",
+      "confidence": 0.8963915705680847,
+      "bbox": [
+        436.5023193359375,
+        505.6317138671875,
+        492.43060302734375,
+        629.633544921875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_859_jpg.rf.5c69c0e8f6ea7ecee6193cf14bb17c1a.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_859_jpg.rf.5c69c0e8f6ea7ecee6193cf14bb17c1a_det_000.jpg",
+      "confidence": 0.8962040543556213,
+      "bbox": [
+        488.4488525390625,
+        508.692626953125,
+        563.569580078125,
+        640.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0362_jpg.rf.72ffa8a28d605559b48b11f2cba18498.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0362_jpg.rf.72ffa8a28d605559b48b11f2cba18498_det_000.jpg",
+      "confidence": 0.8957254886627197,
+      "bbox": [
+        157.8963623046875,
+        429.0596923828125,
+        238.58843994140625,
+        469.3851318359375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_295_jpg.rf.d91a95ac786073aa0a801aee301dc612.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_295_jpg.rf.d91a95ac786073aa0a801aee301dc612_det_000.jpg",
+      "confidence": 0.8955334424972534,
+      "bbox": [
+        246.92169189453125,
+        221.71914672851562,
+        596.1492919921875,
+        503.8168640136719
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1266_jpg.rf.767f694f3342152d01978b4595b4dd04.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1266_jpg.rf.767f694f3342152d01978b4595b4dd04_det_000.jpg",
+      "confidence": 0.8950710892677307,
+      "bbox": [
+        145.72044372558594,
+        388.5447998046875,
+        255.5931854248047,
+        492.0346984863281
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-675-_jpg.rf.2ce6d7b61244fd2e63c3b9fc08408b17.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-675-_jpg.rf.2ce6d7b61244fd2e63c3b9fc08408b17_det_000.jpg",
+      "confidence": 0.894946277141571,
+      "bbox": [
+        103.69239044189453,
+        483.20025634765625,
+        173.906982421875,
+        601.3906860351562
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_349_jpg.rf.dac45bdfb256d5b3c8f8cb6a0fe3501f.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_349_jpg.rf.dac45bdfb256d5b3c8f8cb6a0fe3501f_det_000.jpg",
+      "confidence": 0.8946866393089294,
+      "bbox": [
+        36.487548828125,
+        294.893310546875,
+        303.4171142578125,
+        602.4309692382812
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0475_jpg.rf.9331b8a7f62b7df066ef09dc5eb44bcd.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0475_jpg.rf.9331b8a7f62b7df066ef09dc5eb44bcd_det_000.jpg",
+      "confidence": 0.8939828872680664,
+      "bbox": [
+        186.14686584472656,
+        355.9781188964844,
+        273.1149597167969,
+        492.4932861328125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0216_jpg.rf.1d641e01d550b6749c7a89b58a653841.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0216_jpg.rf.1d641e01d550b6749c7a89b58a653841_det_000.jpg",
+      "confidence": 0.8934879302978516,
+      "bbox": [
+        126.02944946289062,
+        407.5337829589844,
+        212.3143310546875,
+        493.9869079589844
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-673-_jpg.rf.41bffc64232cb643d84510f7542a3ff8.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-673-_jpg.rf.41bffc64232cb643d84510f7542a3ff8_det_000.jpg",
+      "confidence": 0.893355131149292,
+      "bbox": [
+        126.77680969238281,
+        513.53759765625,
+        233.9282989501953,
+        598.803955078125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_656_jpg.rf.487f4fd2ee868518879e2cbe0b8636d1.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_656_jpg.rf.487f4fd2ee868518879e2cbe0b8636d1_det_000.jpg",
+      "confidence": 0.8932492136955261,
+      "bbox": [
+        263.04296875,
+        180.99630737304688,
+        417.806640625,
+        324.5941162109375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DSC_00251_JPG_jpg.rf.ee8035e7fe623983833629d6382f3ff9.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DSC_00251_JPG_jpg.rf.ee8035e7fe623983833629d6382f3ff9_det_000.jpg",
+      "confidence": 0.8931136131286621,
+      "bbox": [
+        290.7037048339844,
+        303.5050048828125,
+        357.2112731933594,
+        357.02642822265625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-673-_jpg.rf.82efea369966a7e7d7b75959128ac40c.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-673-_jpg.rf.82efea369966a7e7d7b75959128ac40c_det_000.jpg",
+      "confidence": 0.893065869808197,
+      "bbox": [
+        176.41012573242188,
+        530.1959228515625,
+        270.8054504394531,
+        621.5792236328125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1040_jpg.rf.d11d2725f2c1489a251e024454c946bc.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1040_jpg.rf.d11d2725f2c1489a251e024454c946bc_det_000.jpg",
+      "confidence": 0.8920814990997314,
+      "bbox": [
+        67.5039291381836,
+        424.1724853515625,
+        217.7035675048828,
+        589.693115234375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_301_jpg.rf.273d5872aa50dfa7018bd90790198ba1.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_301_jpg.rf.273d5872aa50dfa7018bd90790198ba1_det_000.jpg",
+      "confidence": 0.8920490741729736,
+      "bbox": [
+        291.06549072265625,
+        248.66505432128906,
+        591.5610961914062,
+        601.878173828125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0335_jpg.rf.2dc7cbbc85059919360decab46a9dd32.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0335_jpg.rf.2dc7cbbc85059919360decab46a9dd32_det_000.jpg",
+      "confidence": 0.8913930058479309,
+      "bbox": [
+        360.5359802246094,
+        492.2497863769531,
+        447.976806640625,
+        542.3124389648438
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-675-_jpg.rf.a1e22779cf9131f6ccc716b98748eb91.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-675-_jpg.rf.a1e22779cf9131f6ccc716b98748eb91_det_000.jpg",
+      "confidence": 0.8912926316261292,
+      "bbox": [
+        122.64508056640625,
+        494.4046630859375,
+        186.05630493164062,
+        614.48046875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0362_jpg.rf.74972fef46d98fde75aefe729e245c7d.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0362_jpg.rf.74972fef46d98fde75aefe729e245c7d_det_000.jpg",
+      "confidence": 0.891194224357605,
+      "bbox": [
+        143.84352111816406,
+        431.44525146484375,
+        224.25802612304688,
+        470.4668884277344
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-653-_jpg.rf.a85b3653a6b2a4ec233c911007db440f.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-653-_jpg.rf.a85b3653a6b2a4ec233c911007db440f_det_000.jpg",
+      "confidence": 0.8910255432128906,
+      "bbox": [
+        112.59181213378906,
+        355.8006286621094,
+        176.9797821044922,
+        464.1445007324219
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_383_jpg.rf.1966030306257552377e4a6929a3f3e0.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_383_jpg.rf.1966030306257552377e4a6929a3f3e0_det_000.jpg",
+      "confidence": 0.8901761770248413,
+      "bbox": [
+        287.38543701171875,
+        297.7591552734375,
+        521.2726440429688,
+        580.3833618164062
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0362_jpg.rf.79c7d9286a0373993fe3c8510b5f0575.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0362_jpg.rf.79c7d9286a0373993fe3c8510b5f0575_det_000.jpg",
+      "confidence": 0.8899761438369751,
+      "bbox": [
+        160.64932250976562,
+        429.1461181640625,
+        240.74691772460938,
+        470.6903076171875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1285_jpg.rf.10123f6bf9f84175b8afda7162c32c54.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1285_jpg.rf.10123f6bf9f84175b8afda7162c32c54_det_000.jpg",
+      "confidence": 0.8895925879478455,
+      "bbox": [
+        224.80462646484375,
+        208.64219665527344,
+        293.72991943359375,
+        373.82379150390625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1062_jpg.rf.f609966c09942fb945a604d3706efff3.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1062_jpg.rf.f609966c09942fb945a604d3706efff3_det_000.jpg",
+      "confidence": 0.8895584940910339,
+      "bbox": [
+        278.84130859375,
+        145.1884765625,
+        333.070068359375,
+        221.558837890625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_461_jpg.rf.275d9bcdd1c7440b5a3b52c387f9265c.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_461_jpg.rf.275d9bcdd1c7440b5a3b52c387f9265c_det_000.jpg",
+      "confidence": 0.8888633847236633,
+      "bbox": [
+        315.80169677734375,
+        272.69244384765625,
+        550.7048950195312,
+        640.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\RusoClases404_jpg.rf.f87f5abfec62a3072884aafc16e59dd9.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\RusoClases404_jpg.rf.f87f5abfec62a3072884aafc16e59dd9_det_000.jpg",
+      "confidence": 0.8877362012863159,
+      "bbox": [
+        218.7074737548828,
+        210.09376525878906,
+        286.1324157714844,
+        277.8117980957031
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\sharpenKnife261_jpg.rf.b85f5bf5eb52988b6935fa8c062c63f3.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\sharpenKnife261_jpg.rf.b85f5bf5eb52988b6935fa8c062c63f3_det_000.jpg",
+      "confidence": 0.8864259719848633,
+      "bbox": [
+        245.68994140625,
+        427.760986328125,
+        301.148681640625,
+        494.7161865234375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_458_jpg.rf.ab23b8141e89fcc8c171d75abe80a3bc.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_458_jpg.rf.ab23b8141e89fcc8c171d75abe80a3bc_det_000.jpg",
+      "confidence": 0.885989248752594,
+      "bbox": [
+        67.62139892578125,
+        293.23907470703125,
+        354.8663330078125,
+        588.9652099609375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_606_jpg.rf.4ddadb22620be027df6ddd8c11ccfc43.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_606_jpg.rf.4ddadb22620be027df6ddd8c11ccfc43_det_000.jpg",
+      "confidence": 0.8853645920753479,
+      "bbox": [
+        174.62652587890625,
+        226.3835906982422,
+        346.9083251953125,
+        332.48077392578125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-1438-_jpg.rf.bbdf67f1b098df0f2975e1aac49e1e62.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-1438-_jpg.rf.bbdf67f1b098df0f2975e1aac49e1e62_det_000.jpg",
+      "confidence": 0.8853368163108826,
+      "bbox": [
+        82.47038269042969,
+        525.8837890625,
+        157.89280700683594,
+        639.9891357421875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1307_jpg.rf.8bd2220c66ead38dd91ec7da173e5e22.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1307_jpg.rf.8bd2220c66ead38dd91ec7da173e5e22_det_000.jpg",
+      "confidence": 0.8849377632141113,
+      "bbox": [
+        308.74468994140625,
+        136.7852783203125,
+        377.84210205078125,
+        302.8318176269531
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0809_jpg.rf.5d583a1c762848ebc9c1caa1b9d43e2d.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0809_jpg.rf.5d583a1c762848ebc9c1caa1b9d43e2d_det_000.jpg",
+      "confidence": 0.8848134875297546,
+      "bbox": [
+        140.22933959960938,
+        492.02978515625,
+        235.50033569335938,
+        543.911376953125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_323_jpg.rf.78341f0458288ee559c454c56d4ee5c3.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_323_jpg.rf.78341f0458288ee559c454c56d4ee5c3_det_000.jpg",
+      "confidence": 0.8847583532333374,
+      "bbox": [
+        295.4793701171875,
+        289.19366455078125,
+        610.7495727539062,
+        635.330322265625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-673-_jpg.rf.03e2c41a372060bb079c46e8e6f1ea12.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-673-_jpg.rf.03e2c41a372060bb079c46e8e6f1ea12_det_000.jpg",
+      "confidence": 0.8845402002334595,
+      "bbox": [
+        153.30064392089844,
+        519.6256103515625,
+        251.38819885253906,
+        598.269775390625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_301_jpg.rf.87e9409de2f99d71016d361966e22425.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_301_jpg.rf.87e9409de2f99d71016d361966e22425_det_000.jpg",
+      "confidence": 0.8845086097717285,
+      "bbox": [
+        287.3846740722656,
+        256.4144592285156,
+        610.2665405273438,
+        614.2238159179688
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-675-_jpg.rf.7c3ae91f13c0696dee3ddbecd9ca70eb.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-675-_jpg.rf.7c3ae91f13c0696dee3ddbecd9ca70eb_det_000.jpg",
+      "confidence": 0.883493185043335,
+      "bbox": [
+        89.15476989746094,
+        474.0794982910156,
+        155.97640991210938,
+        588.4862060546875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_375_jpg.rf.a612eca85bbc12db1b8eb8dddf9a347a.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_375_jpg.rf.a612eca85bbc12db1b8eb8dddf9a347a_det_000.jpg",
+      "confidence": 0.8833146691322327,
+      "bbox": [
+        32.9715576171875,
+        344.92413330078125,
+        307.756103515625,
+        637.3417358398438
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0500_jpg.rf.2064c3d8dd85e14f1a46147d88acd176.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0500_jpg.rf.2064c3d8dd85e14f1a46147d88acd176_det_000.jpg",
+      "confidence": 0.8827797770500183,
+      "bbox": [
+        368.0599060058594,
+        376.1907958984375,
+        452.7689208984375,
+        475.3125915527344
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_483_jpg.rf.8a137f95b8f11e8134326f9272697e5f.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_483_jpg.rf.8a137f95b8f11e8134326f9272697e5f_det_000.jpg",
+      "confidence": 0.882706344127655,
+      "bbox": [
+        141.10650634765625,
+        79.01652526855469,
+        432.3226623535156,
+        570.7118530273438
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DSC_00251_JPG_jpg.rf.11e7ff6202321e615543f6cf369d801b.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DSC_00251_JPG_jpg.rf.11e7ff6202321e615543f6cf369d801b_det_000.jpg",
+      "confidence": 0.8825406432151794,
+      "bbox": [
+        287.1882019042969,
+        305.583251953125,
+        359.6488342285156,
+        353.82257080078125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_461_jpg.rf.4d9d15b9433035b1625d1989d482a59c.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_461_jpg.rf.4d9d15b9433035b1625d1989d482a59c_det_000.jpg",
+      "confidence": 0.881537139415741,
+      "bbox": [
+        13.684277534484863,
+        273.61981201171875,
+        306.9579772949219,
+        607.2413330078125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaTraining20615_jpg.rf.5b682d4aadb410400a9f17332b249d09.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaTraining20615_jpg.rf.5b682d4aadb410400a9f17332b249d09_det_000.jpg",
+      "confidence": 0.8815065622329712,
+      "bbox": [
+        332.2606201171875,
+        444.372314453125,
+        408.2147216796875,
+        493.7908935546875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1062_jpg.rf.2751619b4aad5a08f105b9414382a532.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1062_jpg.rf.2751619b4aad5a08f105b9414382a532_det_000.jpg",
+      "confidence": 0.8814101815223694,
+      "bbox": [
+        291.9955749511719,
+        137.67379760742188,
+        363.6638488769531,
+        211.90802001953125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0809_jpg.rf.911e45bcb1f6b4511472f3f27fbeaedd.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0809_jpg.rf.911e45bcb1f6b4511472f3f27fbeaedd_det_000.jpg",
+      "confidence": 0.8812400102615356,
+      "bbox": [
+        107.48113250732422,
+        459.3369140625,
+        199.88983154296875,
+        511.502685546875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_859_jpg.rf.d11d93df8f869441282ddb0201d193f6.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_859_jpg.rf.d11d93df8f869441282ddb0201d193f6_det_000.jpg",
+      "confidence": 0.8810559511184692,
+      "bbox": [
+        113.39518737792969,
+        546.1712646484375,
+        197.63954162597656,
+        640.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0809_jpg.rf.2a3054fd1cbc43ccaba8b376ee7f86f4.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0809_jpg.rf.2a3054fd1cbc43ccaba8b376ee7f86f4_det_000.jpg",
+      "confidence": 0.8808279633522034,
+      "bbox": [
+        112.47186279296875,
+        467.9024963378906,
+        209.59368896484375,
+        519.7603149414062
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaTraining20615_jpg.rf.691be4ed248e79cc715b81eca9d18374.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaTraining20615_jpg.rf.691be4ed248e79cc715b81eca9d18374_det_000.jpg",
+      "confidence": 0.8804953098297119,
+      "bbox": [
+        296.4793701171875,
+        419.2165832519531,
+        372.96240234375,
+        465.6073303222656
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1280_jpg.rf.d8f7d929972281217d7b501afecb7a39.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1280_jpg.rf.d8f7d929972281217d7b501afecb7a39_det_000.jpg",
+      "confidence": 0.8802849054336548,
+      "bbox": [
+        311.0058898925781,
+        121.37881469726562,
+        375.1328430175781,
+        265.1982727050781
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-630-_jpg.rf.6664df255cf9178005de2d0c1c5309bd.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-630-_jpg.rf.6664df255cf9178005de2d0c1c5309bd_det_000.jpg",
+      "confidence": 0.8795908689498901,
+      "bbox": [
+        326.91326904296875,
+        442.67926025390625,
+        407.58648681640625,
+        526.3831176757812
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_605_jpg.rf.5c3c63c5bdbb7529e9982dccd0fbdfbd.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_605_jpg.rf.5c3c63c5bdbb7529e9982dccd0fbdfbd_det_000.jpg",
+      "confidence": 0.87945556640625,
+      "bbox": [
+        200.2325439453125,
+        160.30471801757812,
+        315.67919921875,
+        473.44097900390625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0335_jpg.rf.796cd993410c36aa7ecb36c69abf517d.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0335_jpg.rf.796cd993410c36aa7ecb36c69abf517d_det_000.jpg",
+      "confidence": 0.8790243268013,
+      "bbox": [
+        214.90423583984375,
+        514.490478515625,
+        304.29986572265625,
+        555.3336181640625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1280_jpg.rf.9d3325f2009f304715d00ea4e4ba9394.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1280_jpg.rf.9d3325f2009f304715d00ea4e4ba9394_det_000.jpg",
+      "confidence": 0.878601610660553,
+      "bbox": [
+        284.178466796875,
+        137.58932495117188,
+        353.35400390625,
+        280.2764587402344
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\sharpenKnife261_jpg.rf.a9723b831fdc7ae7faa3b32565eec0b4.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\sharpenKnife261_jpg.rf.a9723b831fdc7ae7faa3b32565eec0b4_det_000.jpg",
+      "confidence": 0.877785861492157,
+      "bbox": [
+        317.7156982421875,
+        432.34454345703125,
+        368.289306640625,
+        503.83099365234375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_933_jpg.rf.495b426a0151c36d94b8810062b7a096.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_933_jpg.rf.495b426a0151c36d94b8810062b7a096_det_000.jpg",
+      "confidence": 0.8775269985198975,
+      "bbox": [
+        83.14117431640625,
+        524.7281494140625,
+        158.61105346679688,
+        640.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_933_jpg.rf.e6001586a0e16665e97a7ce7b5fcae74.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_933_jpg.rf.e6001586a0e16665e97a7ce7b5fcae74_det_000.jpg",
+      "confidence": 0.8773992657661438,
+      "bbox": [
+        488.9013977050781,
+        482.52703857421875,
+        570.9337768554688,
+        588.0365600585938
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_456_jpg.rf.4ab41a3d3981cc6de528a3ac7612a3cc.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_456_jpg.rf.4ab41a3d3981cc6de528a3ac7612a3cc_det_000.jpg",
+      "confidence": 0.8773708939552307,
+      "bbox": [
+        73.7913818359375,
+        294.7207336425781,
+        408.05328369140625,
+        630.0
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseAndSurvive14_jpg.rf.27e5b1e9d233acf9b09b650033230a0c.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseAndSurvive14_jpg.rf.27e5b1e9d233acf9b09b650033230a0c_det_000.jpg",
+      "confidence": 0.8773084878921509,
+      "bbox": [
+        195.488037109375,
+        421.91119384765625,
+        273.54583740234375,
+        639.8672485351562
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseAndSurvive14_jpg.rf.15a9dfc637b1f9219926a16dd50e631d.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseAndSurvive14_jpg.rf.15a9dfc637b1f9219926a16dd50e631d_det_000.jpg",
+      "confidence": 0.8770846724510193,
+      "bbox": [
+        342.4466552734375,
+        428.1311950683594,
+        435.8907470703125,
+        639.0010986328125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_322_jpg.rf.9f5245199bc14fb3457849c6ee9ec322.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_322_jpg.rf.9f5245199bc14fb3457849c6ee9ec322_det_000.jpg",
+      "confidence": 0.8764067888259888,
+      "bbox": [
+        6.384521484375,
+        406.77874755859375,
+        296.7113037109375,
+        605.7659301757812
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaKnifeDefenseTechniques700_jpg.rf.a73aa8c698b7c4ac7d434b6291bb9125.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaKnifeDefenseTechniques700_jpg.rf.a73aa8c698b7c4ac7d434b6291bb9125_det_000.jpg",
+      "confidence": 0.8762534260749817,
+      "bbox": [
+        273.31536865234375,
+        239.06155395507812,
+        354.69451904296875,
+        312.8940124511719
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0335_jpg.rf.58131679468bbfa45d9266c365fa5bc8.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0335_jpg.rf.58131679468bbfa45d9266c365fa5bc8_det_000.jpg",
+      "confidence": 0.8750396370887756,
+      "bbox": [
+        175.16287231445312,
+        486.8494873046875,
+        258.9301452636719,
+        541.4681396484375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack1007_jpg.rf.7403bbd27c625773f7927b81b6181c64.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack1007_jpg.rf.7403bbd27c625773f7927b81b6181c64_det_000.jpg",
+      "confidence": 0.8746582269668579,
+      "bbox": [
+        13.4959716796875,
+        462.9013977050781,
+        77.16999053955078,
+        574.315185546875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-1190-_jpg.rf.6b26912cd9d94400775d390420987d59.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-1190-_jpg.rf.6b26912cd9d94400775d390420987d59_det_000.jpg",
+      "confidence": 0.8744170665740967,
+      "bbox": [
+        179.041748046875,
+        194.6014404296875,
+        390.7994384765625,
+        544.9087524414062
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1066_jpg.rf.2fc960200ec59960b002b3d6da52d5ab.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1066_jpg.rf.2fc960200ec59960b002b3d6da52d5ab_det_000.jpg",
+      "confidence": 0.8734978437423706,
+      "bbox": [
+        9.455390930175781,
+        2.7069091796875,
+        253.88214111328125,
+        633.81201171875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DSC_00241_JPG_jpg.rf.e07b13b971ffefd36010276f557ac767.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DSC_00241_JPG_jpg.rf.e07b13b971ffefd36010276f557ac767_det_000.jpg",
+      "confidence": 0.8732783794403076,
+      "bbox": [
+        292.023193359375,
+        280.9903869628906,
+        354.9298095703125,
+        347.3202209472656
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_322_jpg.rf.45fd6c783ff10ea946232a0f39967a46.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_322_jpg.rf.45fd6c783ff10ea946232a0f39967a46_det_000.jpg",
+      "confidence": 0.8729829788208008,
+      "bbox": [
+        332.1609191894531,
+        0.0,
+        585.1067504882812,
+        264.67889404296875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1280_jpg.rf.860a384a38ad5ea090a22517a7243186.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1280_jpg.rf.860a384a38ad5ea090a22517a7243186_det_000.jpg",
+      "confidence": 0.872982382774353,
+      "bbox": [
+        272.56927490234375,
+        149.00497436523438,
+        361.00091552734375,
+        286.69256591796875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_279_jpg.rf.3cdbfd645caea17bc8bfd3a8436e2e9d.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_279_jpg.rf.3cdbfd645caea17bc8bfd3a8436e2e9d_det_000.jpg",
+      "confidence": 0.8721084594726562,
+      "bbox": [
+        252.2642822265625,
+        258.13177490234375,
+        518.535400390625,
+        634.7152709960938
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_301_jpg.rf.f9242f476cdd0caba57e40e52099bfe6.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_301_jpg.rf.f9242f476cdd0caba57e40e52099bfe6_det_000.jpg",
+      "confidence": 0.8713964819908142,
+      "bbox": [
+        50.726165771484375,
+        279.7586669921875,
+        331.65338134765625,
+        628.95849609375
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\RusoClases396_jpg.rf.86fdfdc14ed3333fd6618b2dcb684ee7.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\RusoClases396_jpg.rf.86fdfdc14ed3333fd6618b2dcb684ee7_det_000.jpg",
+      "confidence": 0.8712910413742065,
+      "bbox": [
+        337.6388854980469,
+        356.2447814941406,
+        400.3340148925781,
+        421.1452941894531
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1285_jpg.rf.0ddc44174e8109a00f613e23a0457875.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1285_jpg.rf.0ddc44174e8109a00f613e23a0457875_det_000.jpg",
+      "confidence": 0.8709164261817932,
+      "bbox": [
+        255.75364685058594,
+        228.59738159179688,
+        306.6912841796875,
+        389.3885192871094
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-630-_jpg.rf.5e69b8996916df24a78fcb6e3b3dd4a8.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-630-_jpg.rf.5e69b8996916df24a78fcb6e3b3dd4a8_det_000.jpg",
+      "confidence": 0.8707125186920166,
+      "bbox": [
+        249.41415405273438,
+        450.359375,
+        341.2309265136719,
+        528.784423828125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1266_jpg.rf.8e2352c4bb93977f8fa8813ab0fc815c.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1266_jpg.rf.8e2352c4bb93977f8fa8813ab0fc815c_det_000.jpg",
+      "confidence": 0.8704687356948853,
+      "bbox": [
+        186.49200439453125,
+        409.95892333984375,
+        298.0284729003906,
+        509.99029541015625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack1007_jpg.rf.834281280324e1cba3f33665bf12574a.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack1007_jpg.rf.834281280324e1cba3f33665bf12574a_det_000.jpg",
+      "confidence": 0.8696858882904053,
+      "bbox": [
+        0.04115047678351402,
+        438.44232177734375,
+        54.07904815673828,
+        547.7863159179688
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_444_jpg.rf.b2760a42cd55209e5a3da7d21bb231b9.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_444_jpg.rf.b2760a42cd55209e5a3da7d21bb231b9_det_000.jpg",
+      "confidence": 0.8696755170822144,
+      "bbox": [
+        405.0003662109375,
+        266.55352783203125,
+        640.0,
+        615.0516967773438
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_274_jpg.rf.181492e2062f86f237f01d79644e04cf.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_274_jpg.rf.181492e2062f86f237f01d79644e04cf_det_000.jpg",
+      "confidence": 0.8693847060203552,
+      "bbox": [
+        93.57830810546875,
+        354.43682861328125,
+        382.3341064453125,
+        639.9777221679688
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_444_jpg.rf.189f1e5ada779203eab34b09318bd663.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_444_jpg.rf.189f1e5ada779203eab34b09318bd663_det_000.jpg",
+      "confidence": 0.8688191771507263,
+      "bbox": [
+        403.61968994140625,
+        260.2203063964844,
+        635.7467651367188,
+        610.301513671875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0500_jpg.rf.2147efabbfc75686da9e02a21e73ec5e.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0500_jpg.rf.2147efabbfc75686da9e02a21e73ec5e_det_000.jpg",
+      "confidence": 0.8687370419502258,
+      "bbox": [
+        147.0432586669922,
+        400.6023864746094,
+        226.9190673828125,
+        515.3535766601562
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_367_jpg.rf.3e82e188b81fd4ecdc645f5fe28e1f21.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_367_jpg.rf.3e82e188b81fd4ecdc645f5fe28e1f21_det_000.jpg",
+      "confidence": 0.8685957789421082,
+      "bbox": [
+        133.85455322265625,
+        40.474456787109375,
+        340.33209228515625,
+        336.8243713378906
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1280_jpg.rf.622d1c0e57c2b0c4aa7637ae5a2bdae5.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1280_jpg.rf.622d1c0e57c2b0c4aa7637ae5a2bdae5_det_000.jpg",
+      "confidence": 0.8685794472694397,
+      "bbox": [
+        272.5582275390625,
+        149.45150756835938,
+        361.013916015625,
+        287.4947509765625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_279_jpg.rf.7292666e49be4bcfe7312d5f99e6d27e.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_279_jpg.rf.7292666e49be4bcfe7312d5f99e6d27e_det_000.jpg",
+      "confidence": 0.8685415387153625,
+      "bbox": [
+        262.8756103515625,
+        253.81622314453125,
+        534.8055419921875,
+        620.445556640625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0216_jpg.rf.b1359c5cbabd46ff8dbc302c3a204225.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0216_jpg.rf.b1359c5cbabd46ff8dbc302c3a204225_det_000.jpg",
+      "confidence": 0.8681485652923584,
+      "bbox": [
+        58.328243255615234,
+        325.63348388671875,
+        128.1402130126953,
+        427.8274841308594
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_859_jpg.rf.9c36fe55e1a8c299e7c2af80303e17bd.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_859_jpg.rf.9c36fe55e1a8c299e7c2af80303e17bd_det_000.jpg",
+      "confidence": 0.8672767877578735,
+      "bbox": [
+        58.909515380859375,
+        488.18414306640625,
+        128.35421752929688,
+        639.6934204101562
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0335_jpg.rf.3bbfcde1bcf0784896b91fc96a1cd3a1.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0335_jpg.rf.3bbfcde1bcf0784896b91fc96a1cd3a1_det_000.jpg",
+      "confidence": 0.867203414440155,
+      "bbox": [
+        210.58197021484375,
+        511.9412536621094,
+        300.98779296875,
+        557.2999267578125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0500_jpg.rf.13cce988f2d54be6d1e5dee0812cf1cb.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0500_jpg.rf.13cce988f2d54be6d1e5dee0812cf1cb_det_000.jpg",
+      "confidence": 0.867154061794281,
+      "bbox": [
+        106.9197998046875,
+        364.05181884765625,
+        199.0121612548828,
+        473.09185791015625
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_461_jpg.rf.a3da574ee08ce84ec9603c065a038abc.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_461_jpg.rf.a3da574ee08ce84ec9603c065a038abc_det_000.jpg",
+      "confidence": 0.8670867085456848,
+      "bbox": [
+        79.85629272460938,
+        260.9098815917969,
+        318.7413635253906,
+        631.9949951171875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_458_jpg.rf.b9776e9d234d78acace5cd88ae3ae483.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_458_jpg.rf.b9776e9d234d78acace5cd88ae3ae483_det_000.jpg",
+      "confidence": 0.8670596480369568,
+      "bbox": [
+        118.37606811523438,
+        296.22088623046875,
+        368.1019287109375,
+        625.7316284179688
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\KravMagaKnifeDefenseTechniques700_jpg.rf.8534f5c33f0e4d35bb562a7a9bff57d1.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\KravMagaKnifeDefenseTechniques700_jpg.rf.8534f5c33f0e4d35bb562a7a9bff57d1_det_000.jpg",
+      "confidence": 0.8669228553771973,
+      "bbox": [
+        289.36285400390625,
+        336.9087829589844,
+        374.2279052734375,
+        396.0422668457031
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1295_jpg.rf.89004aac2073f12e42b64eee43e25ce0.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1295_jpg.rf.89004aac2073f12e42b64eee43e25ce0_det_000.jpg",
+      "confidence": 0.8667604923248291,
+      "bbox": [
+        274.11090087890625,
+        193.66363525390625,
+        357.63482666015625,
+        296.326171875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_1266_jpg.rf.178f41b9913c046e0b45e54b81e58b00.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_1266_jpg.rf.178f41b9913c046e0b45e54b81e58b00_det_000.jpg",
+      "confidence": 0.8664590716362,
+      "bbox": [
+        185.42227172851562,
+        408.2518615722656,
+        299.0227966308594,
+        510.7151794433594
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-1383-_jpg.rf.098d276c2c51e4ee5be4f31556c20f8e.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-1383-_jpg.rf.098d276c2c51e4ee5be4f31556c20f8e_det_000.jpg",
+      "confidence": 0.8656206130981445,
+      "bbox": [
+        447.8048095703125,
+        182.34889221191406,
+        518.0661010742188,
+        383.8580627441406
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_456_jpg.rf.3d244595d16e4e9c64f10ec7bf1d3295.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_456_jpg.rf.3d244595d16e4e9c64f10ec7bf1d3295_det_000.jpg",
+      "confidence": 0.865260124206543,
+      "bbox": [
+        43.17333984375,
+        292.83282470703125,
+        423.33740234375,
+        617.8119506835938
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife-630-_jpg.rf.3ff149b4c5bbeb423e5b23e4d98e3f29.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife-630-_jpg.rf.3ff149b4c5bbeb423e5b23e4d98e3f29_det_000.jpg",
+      "confidence": 0.8650888204574585,
+      "bbox": [
+        234.0398406982422,
+        114.65206146240234,
+        318.90252685546875,
+        196.71853637695312
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_958_jpg.rf.268257dfe0205d94d7684b6afed378ef.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_958_jpg.rf.268257dfe0205d94d7684b6afed378ef_det_000.jpg",
+      "confidence": 0.8638624548912048,
+      "bbox": [
+        71.66816711425781,
+        327.79632568359375,
+        157.51004028320312,
+        515.9786376953125
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_274_jpg.rf.c69c02c863395026658c364cf5b88fbb.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_274_jpg.rf.c69c02c863395026658c364cf5b88fbb_det_000.jpg",
+      "confidence": 0.863180935382843,
+      "bbox": [
+        256.9558410644531,
+        337.1914367675781,
+        565.0863037109375,
+        621.5769653320312
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DefenseKnifeAttack0091_jpg.rf.82f8f85abed8e8b3037f13fa459267a7.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DefenseKnifeAttack0091_jpg.rf.82f8f85abed8e8b3037f13fa459267a7_det_000.jpg",
+      "confidence": 0.8631733655929565,
+      "bbox": [
+        279.348876953125,
+        444.99560546875,
+        331.544921875,
+        474.7294921875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_444_jpg.rf.dc86f04ef48179162704b13aed45a033.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_444_jpg.rf.dc86f04ef48179162704b13aed45a033_det_000.jpg",
+      "confidence": 0.8628618121147156,
+      "bbox": [
+        400.5096130371094,
+        258.8006286621094,
+        616.0,
+        590.5620727539062
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\DSC_00311_JPG_jpg.rf.bdb1908dfd2fb7a2d5a3e919ea3feef8.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\DSC_00311_JPG_jpg.rf.bdb1908dfd2fb7a2d5a3e919ea3feef8_det_000.jpg",
+      "confidence": 0.8626606464385986,
+      "bbox": [
+        336.2068786621094,
+        443.25262451171875,
+        390.8568420410156,
+        497.44061279296875
+      ]
+    },
+    {
+      "image_path": "knife_classifier_data\\train\\images\\knife_367_jpg.rf.5b1ccb5c114802cdc964ed93165d9f94.jpg",
+      "label_path": null,
+      "crop_path": "analysis_outputs\\knife_hard_negatives\\crops\\knife_367_jpg.rf.5b1ccb5c114802cdc964ed93165d9f94_det_000.jpg",
+      "confidence": 0.8625319600105286,
+      "bbox": [
+        268.99090576171875,
+        253.91688537597656,
+        444.98345947265625,
+        633.589599609375
+      ]
+    }
+  ]
+}

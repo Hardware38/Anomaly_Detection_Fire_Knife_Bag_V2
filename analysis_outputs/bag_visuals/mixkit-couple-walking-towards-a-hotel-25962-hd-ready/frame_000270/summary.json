@@ -1,0 +1,94 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-couple-walking-towards-a-hotel-25962-hd-ready.mp4#270",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6494969725608826,
+          "bbox": [
+            509.13433837890625,
+            173.0666046142578,
+            554.2125854492188,
+            301.23956298828125
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.5511133670806885,
+          "bbox": [
+            491.944091796875,
+            0.0,
+            761.8477783203125,
+            569.2465209960938
+          ]
+        },
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.48874327540397644,
+          "bbox": [
+            753.3665771484375,
+            0.0,
+            1085.7161865234375,
+            599.194580078125
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6494969725608826,
+        "bbox": [
+          509.13433837890625,
+          173.0666046142578,
+          554.2125854492188,
+          301.23956298828125
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.5511133670806885,
+        "bbox": [
+          491.944091796875,
+          0.0,
+          761.8477783203125,
+          569.2465209960938
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.48874327540397644,
+        "bbox": [
+          753.3665771484375,
+          0.0,
+          1085.7161865234375,
+          599.194580078125
+        ]
+      }
+    ]
+  }
+}

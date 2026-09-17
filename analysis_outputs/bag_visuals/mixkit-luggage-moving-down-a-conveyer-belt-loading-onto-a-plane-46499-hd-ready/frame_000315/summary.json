@@ -1,0 +1,116 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-luggage-moving-down-a-conveyer-belt-loading-onto-a-plane-46499-hd-ready.mp4#315",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6774446368217468,
+          "bbox": [
+            309.39495849609375,
+            0.0,
+            504.94586181640625,
+            720.0
+          ]
+        },
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.33833369612693787,
+          "bbox": [
+            0.0,
+            0.0,
+            299.1239318847656,
+            719.8187866210938
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.7773330211639404,
+          "bbox": [
+            584.3514404296875,
+            504.5442810058594,
+            957.1531982421875,
+            720.0
+          ]
+        },
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.6051540374755859,
+          "bbox": [
+            1148.4364013671875,
+            376.93780517578125,
+            1279.52685546875,
+            453.5304870605469
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 4,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6774446368217468,
+        "bbox": [
+          309.39495849609375,
+          0.0,
+          504.94586181640625,
+          720.0
+        ]
+      },
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.33833369612693787,
+        "bbox": [
+          0.0,
+          0.0,
+          299.1239318847656,
+          719.8187866210938
+        ]
+      },
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.7773330211639404,
+        "bbox": [
+          584.3514404296875,
+          504.5442810058594,
+          957.1531982421875,
+          720.0
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.6051540374755859,
+        "bbox": [
+          1148.4364013671875,
+          376.93780517578125,
+          1279.52685546875,
+          453.5304870605469
+        ]
+      }
+    ]
+  }
+}

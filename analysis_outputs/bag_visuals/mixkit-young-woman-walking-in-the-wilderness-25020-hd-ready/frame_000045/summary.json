@@ -1,0 +1,71 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-young-woman-walking-in-the-wilderness-25020-hd-ready.mp4#45",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.5520851612091064,
+          "bbox": [
+            0.1124674528837204,
+            134.10818481445312,
+            297.92169189453125,
+            717.006591796875
+          ]
+        },
+        {
+          "model": "luggage",
+          "class_name": "luggage",
+          "confidence": 0.4575795531272888,
+          "bbox": [
+            165.4889373779297,
+            0.0,
+            1279.9652099609375,
+            720.0
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 2,
+    "detections": [
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.5520851612091064,
+        "bbox": [
+          0.1124674528837204,
+          134.10818481445312,
+          297.92169189453125,
+          717.006591796875
+        ]
+      },
+      {
+        "model": "luggage",
+        "class_name": "luggage",
+        "confidence": 0.4575795531272888,
+        "bbox": [
+          165.4889373779297,
+          0.0,
+          1279.9652099609375,
+          720.0
+        ]
+      }
+    ]
+  }
+}

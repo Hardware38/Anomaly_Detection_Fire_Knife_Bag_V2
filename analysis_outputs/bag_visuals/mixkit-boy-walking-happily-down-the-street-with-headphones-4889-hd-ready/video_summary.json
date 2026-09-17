@@ -1,0 +1,25 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready.mp4",
+  "frames": [
+    {
+      "frame_index": 45,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready\\frame_000045"
+    },
+    {
+      "frame_index": 90,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready\\frame_000090"
+    },
+    {
+      "frame_index": 135,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready\\frame_000135"
+    },
+    {
+      "frame_index": 180,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready\\frame_000180"
+    },
+    {
+      "frame_index": 225,
+      "output_dir": "analysis_outputs\\bag_visuals\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready\\frame_000225"
+    }
+  ]
+}

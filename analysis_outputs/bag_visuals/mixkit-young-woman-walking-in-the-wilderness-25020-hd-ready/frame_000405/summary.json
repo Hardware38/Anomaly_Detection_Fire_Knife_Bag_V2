@@ -1,0 +1,49 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-young-woman-walking-in-the-wilderness-25020-hd-ready.mp4#405",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.7050614953041077,
+          "bbox": [
+            320.197509765625,
+            136.32957458496094,
+            567.3521728515625,
+            702.76904296875
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 1,
+    "detections": [
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.7050614953041077,
+        "bbox": [
+          320.197509765625,
+          136.32957458496094,
+          567.3521728515625,
+          702.76904296875
+        ]
+      }
+    ]
+  }
+}

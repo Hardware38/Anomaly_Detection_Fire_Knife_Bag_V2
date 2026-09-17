@@ -1,0 +1,94 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-woman-hiking-in-a-mountain-path-25205-hd-ready.mp4#90",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.6524109244346619,
+          "bbox": [
+            0.0,
+            261.56793212890625,
+            1273.298583984375,
+            712.7523193359375
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 2,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.8215104937553406,
+          "bbox": [
+            710.95166015625,
+            251.094482421875,
+            825.3869018554688,
+            558.712646484375
+          ]
+        },
+        {
+          "model": "bag",
+          "class_name": "bag",
+          "confidence": 0.5163360834121704,
+          "bbox": [
+            736.2747802734375,
+            303.7347412109375,
+            803.3663940429688,
+            400.75885009765625
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 3,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.6524109244346619,
+        "bbox": [
+          0.0,
+          261.56793212890625,
+          1273.298583984375,
+          712.7523193359375
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.8215104937553406,
+        "bbox": [
+          710.95166015625,
+          251.094482421875,
+          825.3869018554688,
+          558.712646484375
+        ]
+      },
+      {
+        "model": "bag",
+        "class_name": "bag",
+        "confidence": 0.5163360834121704,
+        "bbox": [
+          736.2747802734375,
+          303.7347412109375,
+          803.3663940429688,
+          400.75885009765625
+        ]
+      }
+    ]
+  }
+}

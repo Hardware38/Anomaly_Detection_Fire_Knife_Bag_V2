@@ -1,0 +1,49 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-boy-walking-happily-down-the-street-with-headphones-4889-hd-ready.mp4#225",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 0,
+      "detections": []
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.8014853596687317,
+          "bbox": [
+            572.0258178710938,
+            74.17350769042969,
+            701.6807861328125,
+            492.7288513183594
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 1,
+    "detections": [
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.8014853596687317,
+        "bbox": [
+          572.0258178710938,
+          74.17350769042969,
+          701.6807861328125,
+          492.7288513183594
+        ]
+      }
+    ]
+  }
+}

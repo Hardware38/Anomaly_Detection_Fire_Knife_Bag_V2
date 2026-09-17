@@ -1,0 +1,72 @@
+{
+  "source": "videos\\bag_classifier_raw\\mixkit-woman-hiking-in-a-mountain-path-25205-hd-ready.mp4#270",
+  "per_model": {
+    "fire": {
+      "count": 0,
+      "detections": []
+    },
+    "knife": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "knife",
+          "class_name": "knife",
+          "confidence": 0.8468009233474731,
+          "bbox": [
+            0.0,
+            0.0,
+            1277.7540283203125,
+            716.8568115234375
+          ]
+        }
+      ]
+    },
+    "bag": {
+      "count": 1,
+      "detections": [
+        {
+          "model": "person",
+          "class_name": "person",
+          "confidence": 0.8438062071800232,
+          "bbox": [
+            724.3888549804688,
+            229.88705444335938,
+            811.0853271484375,
+            500.4519958496094
+          ]
+        }
+      ]
+    },
+    "train": {
+      "count": 0,
+      "detections": []
+    }
+  },
+  "all_models": {
+    "count": 2,
+    "detections": [
+      {
+        "model": "knife",
+        "class_name": "knife",
+        "confidence": 0.8468009233474731,
+        "bbox": [
+          0.0,
+          0.0,
+          1277.7540283203125,
+          716.8568115234375
+        ]
+      },
+      {
+        "model": "person",
+        "class_name": "person",
+        "confidence": 0.8438062071800232,
+        "bbox": [
+          724.3888549804688,
+          229.88705444335938,
+          811.0853271484375,
+          500.4519958496094
+        ]
+      }
+    ]
+  }
+}
